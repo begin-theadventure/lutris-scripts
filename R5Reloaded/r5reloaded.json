@@ -1,0 +1,91 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 16680,
+      "game_id": 11513,
+      "game_slug": "origin",
+      "name": "Origin",
+      "year": 2011,
+      "user": "citrusalex",
+      "runner": "wine",
+      "slug": "origin-latest",
+      "version": "Latest",
+      "description": "",
+      "notes": "Please read before installing: https://github.com/lutris/lutris/wiki/Game:-Origin",
+      "credits": "",
+      "created_at": "2019-11-07T08:58:06.747000Z",
+      "updated_at": "2022-06-09T00:55:30.284997Z",
+      "draft": false,
+      "published": true,
+      "published_by": 51687,
+      "rating": "",
+      "is_playable": true,
+      "steamid": null,
+      "gogid": null,
+      "gogslug": "",
+      "humbleid": "",
+      "humblestoreid": "",
+      "humblestoreid_real": "",
+      "script": {
+        "files": [
+          {
+            "client": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
+          }
+        ],
+        "game": {
+          "exe": "$GAMEDIR/drive_c/Program Files (x86)/Origin/Origin.exe",
+          "prefix": "$GAMEDIR"
+        },
+        "installer": [
+          {
+            "task": {
+              "description": "Creating Wine prefix",
+              "name": "create_prefix",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "app": "arial",
+              "name": "winetricks",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "args": "/silent",
+              "description": "Installing Origin... Login window will pop-up and close.",
+              "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe",
+              "executable": "client",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "name": "winekill",
+              "prefix": "$GAMEDIR"
+            }
+          }
+        ],
+        "system": {
+          "env": {
+            "STAGING_SHARED_MEMORY": 0,
+            "__GL_SHADER_DISK_CACHE": 1,
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR"
+          },
+          "exclude_processes": "QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe"
+        },
+        "wine": {
+          "overrides": {
+            "nvapi,nvapi64": "disabled"
+          }
+        }
+      },
+      "content": "files:\n- client: https://download.dm.origin.com/origin/live/OriginSetup.exe\ngame:\n  exe: $GAMEDIR/drive_c/Program Files (x86)/Origin/Origin.exe\n  prefix: $GAMEDIR\ninstaller:\n- task:\n    description: Creating Wine prefix\n    name: create_prefix\n    prefix: $GAMEDIR\n- task:\n    app: arial\n    name: winetricks\n    prefix: $GAMEDIR\n- task:\n    args: /silent\n    description: Installing Origin... Login window will pop-up and close.\n    exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe\n      QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe\n    executable: client\n    name: wineexec\n    prefix: $GAMEDIR\n- task:\n    name: winekill\n    prefix: $GAMEDIR\nsystem:\n  env:\n    STAGING_SHARED_MEMORY: 0\n    __GL_SHADER_DISK_CACHE: 1\n    __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR\n  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe\nwine:\n  overrides:\n    nvapi,nvapi64: disabled\n"
+    }
+  ]
+}
