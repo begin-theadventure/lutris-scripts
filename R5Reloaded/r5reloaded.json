@@ -4,26 +4,26 @@
   "previous": null,
   "results": [
     {
-      "id": 16680,
-      "game_id": 11513,
-      "game_slug": "origin",
-      "name": "Origin",
-      "year": 2011,
-      "user": "citrusalex",
+      "id": 11844,
+      "game_id": 25594,
+      "game_slug": "apex-legends",
+      "name": "Apex Legends",
+      "year": 2019,
+      "user": "Farcrada",
       "runner": "wine",
-      "slug": "origin-latest",
-      "version": "Latest",
-      "description": "",
-      "notes": "Please read before installing: https://github.com/lutris/lutris/wiki/Game:-Origin",
+      "slug": "apex-legends-origin",
+      "version": "Origin",
+      "description": "The game does not work due to Easy Anti Cheat. Please let know Electronic Arts that you are interested in playing on Linux. Electronic Arts has the resources to support Linux easily, the more people ask for support, the more it is likely to have a native version.",
+      "notes": "Please read before installing: <a href=\"https://github.com/lutris/lutris/wiki/Game:-Origin\">https://github.com/lutris/lutris/wiki/Game:-Origin</a>\r\n\r\nSeeing as these are the same devs and it's using the same engine as <a href=\"https://lutris.net/games/titanfall-2/\">Titanfall 2</a> there might be some issues with sound. Crackling sound can be fixed by adding <a href=\"https://kodi.wiki/view/PulseAudio#Known_issues\">tsched=0</a> to the file: <tt>/etc/pulse/default.pa</tt>",
       "credits": "",
-      "created_at": "2019-11-07T08:58:06.747000Z",
-      "updated_at": "2022-06-09T00:55:30.284997Z",
+      "created_at": "2019-02-04T22:01:18.400000Z",
+      "updated_at": "2022-06-09T00:55:30.461651Z",
       "draft": false,
       "published": true,
-      "published_by": 51687,
+      "published_by": 19464,
       "rating": "",
-      "is_playable": true,
-      "steamid": null,
+      "is_playable": false,
+      "steamid": 1172470,
       "gogid": null,
       "gogslug": "",
       "humbleid": "",
@@ -32,33 +32,66 @@
       "script": {
         "files": [
           {
-            "client": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
+            "client": "https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe"
+          },
+          {
+            "updater": "https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh"
           }
         ],
         "game": {
-          "exe": "$GAMEDIR/drive_c/Program Files (x86)/Origin/Origin.exe",
+          "arch": "win64",
+          "exe": "drive_c/Program Files (x86)/Origin/Origin.exe",
           "prefix": "$GAMEDIR"
         },
         "installer": [
           {
             "task": {
+              "arch": "win64",
               "description": "Creating Wine prefix",
               "name": "create_prefix",
               "prefix": "$GAMEDIR"
             }
           },
           {
+            "execute": {
+              "command": "mkdir \"$GAMEDIR/nv-shaders\""
+            }
+          },
+          {
+            "input_menu": {
+              "description": "Setting DXVK workarounds please choose your GPU:",
+              "id": "GPU",
+              "options": [
+                {
+                  "#Not needed for AMD. Ignore this.\n#d3d11.zeroInitWorkgroupMemory = False": "AMD"
+                },
+                {
+                  "Fixes fps issues on menus.\nd3d11.zeroInitWorkgroupMemory = True": "Nvidia"
+                }
+              ],
+              "preselect": "#Not needed for AMD. Ignore this.\n#d3d11.zeroInitWorkgroupMemory = False"
+            }
+          },
+          {
+            "write_file": {
+              "content": "$INPUT_GPU",
+              "file": "$GAMEDIR/dxvk.conf"
+            }
+          },
+          {
             "task": {
-              "app": "arial",
+              "app": "nocrashdialog vcrun2017 win7",
+              "arch": "win64",
               "name": "winetricks",
               "prefix": "$GAMEDIR"
             }
           },
           {
             "task": {
+              "arch": "win64",
               "args": "/silent",
               "description": "Installing Origin... Login window will pop-up and close.",
-              "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe",
+              "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe",
               "executable": "client",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
@@ -66,26 +99,38 @@
           },
           {
             "task": {
+              "arch": "win64",
               "name": "winekill",
               "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "chmodx": "updater"
+          },
+          {
+            "merge": {
+              "dst": "$GAMEDIR/drive_c/Program Files (x86)/Origin",
+              "src": "updater"
             }
           }
         ],
         "system": {
           "env": {
-            "STAGING_SHARED_MEMORY": 0,
+            "DXVK_CONFIG_FILE": "$GAMEDIR/dxvk.conf",
             "__GL_SHADER_DISK_CACHE": 1,
-            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR"
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders"
           },
           "exclude_processes": "QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe"
         },
         "wine": {
+          "dxvk": true,
           "overrides": {
-            "nvapi,nvapi64": "disabled"
+            "nvapi,nvapi64": "disabled",
+            "xaudio2_7": "native,builtin"
           }
         }
       },
-      "content": "files:\n- client: https://download.dm.origin.com/origin/live/OriginSetup.exe\ngame:\n  exe: $GAMEDIR/drive_c/Program Files (x86)/Origin/Origin.exe\n  prefix: $GAMEDIR\ninstaller:\n- task:\n    description: Creating Wine prefix\n    name: create_prefix\n    prefix: $GAMEDIR\n- task:\n    app: arial\n    name: winetricks\n    prefix: $GAMEDIR\n- task:\n    args: /silent\n    description: Installing Origin... Login window will pop-up and close.\n    exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe\n      QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe\n    executable: client\n    name: wineexec\n    prefix: $GAMEDIR\n- task:\n    name: winekill\n    prefix: $GAMEDIR\nsystem:\n  env:\n    STAGING_SHARED_MEMORY: 0\n    __GL_SHADER_DISK_CACHE: 1\n    __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR\n  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe\nwine:\n  overrides:\n    nvapi,nvapi64: disabled\n"
+      "content": "files:\r\n- client: https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe\r\n- updater: https://raw.githubusercontent.com/DrDoctor13/wine-origin-updater/master/updateorigin.sh\r\ngame:\r\n  arch: win64\r\n  exe: drive_c/Program Files (x86)/Origin/Origin.exe\r\n  prefix: $GAMEDIR\r\ninstaller:\r\n- task:\r\n    arch: win64\r\n    description: Creating Wine prefix\r\n    name: create_prefix\r\n    prefix: $GAMEDIR\r\n- execute:\r\n    command: mkdir \"$GAMEDIR/nv-shaders\"\r\n- input_menu:\r\n    description: 'Setting DXVK workarounds please choose your GPU:'\r\n    id: GPU\r\n    options:\r\n    - ? '#Not needed for AMD. Ignore this.\r\n\r\n        #d3d11.zeroInitWorkgroupMemory = False'\r\n      : AMD\r\n    - ? 'Fixes fps issues on menus.\r\n\r\n        d3d11.zeroInitWorkgroupMemory = True'\r\n      : Nvidia\r\n    preselect: '#Not needed for AMD. Ignore this.\r\n\r\n      #d3d11.zeroInitWorkgroupMemory = False'\r\n- write_file:\r\n    content: $INPUT_GPU\r\n    file: $GAMEDIR/dxvk.conf\r\n- task:\r\n    app: nocrashdialog vcrun2017 win7\r\n    arch: win64\r\n    name: winetricks\r\n    prefix: $GAMEDIR\r\n- task:\r\n    arch: win64\r\n    args: /silent\r\n    description: Installing Origin... Login window will pop-up and close.\r\n    exclude_processes: Origin.exe OriginClientService.exe OriginWebHelperService.exe\r\n      QtWebEngineProcess.exe\r\n    executable: client\r\n    name: wineexec\r\n    prefix: $GAMEDIR\r\n- task:\r\n    arch: win64\r\n    name: winekill\r\n    prefix: $GAMEDIR\r\n- chmodx: updater\r\n- merge:\r\n    dst: $GAMEDIR/drive_c/Program Files (x86)/Origin\r\n    src: updater\r\nsystem:\r\n  env:\r\n    DXVK_CONFIG_FILE: $GAMEDIR/dxvk.conf\r\n    __GL_SHADER_DISK_CACHE: 1\r\n    __GL_SHADER_DISK_CACHE_PATH: $GAMEDIR/nv-shaders\r\n  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe\r\nwine:\r\n  dxvk: true\r\n  overrides:\r\n    nvapi,nvapi64: disabled\r\n    xaudio2_7: native,builtin"
     }
   ]
 }
