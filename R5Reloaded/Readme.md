@@ -2,7 +2,7 @@
 
 Before follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or on R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [\#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 
-You can also use my [scripts](https://github.com/begin-theadventure/r5reloaded-updaters/releases/tag/r5reloaded-updaters).
+You can also use my shell [scripts](https://github.com/begin-theadventure/r5reloaded-updaters/releases/tag/r5reloaded-updaters).
 
 Steps for Lutris:
 
@@ -18,7 +18,7 @@ You can play with Proton & Steam too.
 
 Before download [Origin installer](https://download.dm.origin.com/origin/live/OriginSetup.exe) and [NorthstarProton](https://github.com/cyrv6737/NorthstarProton/releases), put it in ~/.local/share/Steam/compatibilitytools.d.
 
-Disclaimer: Unlike Proton-GE, NorthstarProton doesn't have FSR so if you need it contact the maintainer or use Gamescope.
+Warning: Unlike Proton-GE, NorthstarProton doesn't have FSR so if you need it contact the maintainer or use Gamescope.
 
 Steps for Steam:
 
