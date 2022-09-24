@@ -17,7 +17,7 @@
       "notes": "Please read before installing: <a href=\"https://github.com/lutris/docs/blob/master/Origin.md\">https://github.com/lutris/docs/blob/master/Origin.md</a>\r\n\r\n-<b>Comes with a DXVK cache for a stutter free experience!</b>\r\n-Crackling sound can be fixed by adding <a href=\"https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting#Glitches.2C_skips_or_crackling\">tsched=0</a> to /etc/pulse/default.pa\r\n-You might want to remove r5reloaded folder under /mnt/Games/Lutris/cache/ directory after installation",
       "credits": "",
       "created_at": "2019-02-04T22:01:18.400000Z",
-      "updated_at": "2022-08-22T00:01:00.461651Z",
+      "updated_at": "2022-09-23T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
