@@ -12,10 +12,14 @@ You can also use my shell [scripts](https://github.com/begin-theadventure/r5relo
 Steps for Lutris:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded.json)"
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded.json)".
 3. After a successful installation open R5Reloaded.
 4. Origin: ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically, launcher.exe allows to choose various options.
+
+   (I recommend to symlink or move the R5Reloaded folder to x/drive_c/Program Files (x86)/Origin Games).
 5. Play.
+
+Images for Lutris, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview]( https://nitter.net/R5Reloaded).
 
 Another way is to use Bottles. Since I don't use it this video may be helpful: [https://youtu.be/VqDgrHCPWG8?t=368](https://youtu.be/VqDgrHCPWG8?t=368)
 
@@ -30,9 +34,13 @@ Steps for Steam:
 1. ADD A GAME -> Add a Non-Steam Game... -> OriginSetup.exe.
 2. Right click -> Properties... -> COMPATIBILITY: NorthstarProton.
 3. PLAY -> install Origin and after close.
-4. Find the prefix under: ~/.local/share/Steam/steamapps/compatdata/x -> and symlink or move R5Reloaded folder to x/drive_c/Program Files (x86)/Origin Games
+4. Find the prefix under: ~/.local/share/Steam/steamapps/compatdata/x
 5. Right click -> Properties... ->  TARGET: "/path/to/x/pfx/drive_c/Program Files (x86)/Origin/Origin.exe" and START IN: "/path/to/x/pfx/".
-6. PLAY -> Origin: ADD A GAME -> Non-Origin Game... -> Origin Games/game/r5apex.exe or launcher.exe.
+6. PLAY -> Origin: ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically, launcher.exe allows to choose various options.
+
+   (I recommend to symlink or move the R5Reloaded folder to x/drive_c/Program Files (x86)/Origin Games).
 7. Play.
+
+Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesSteam). [Source/preview]( https://nitter.net/R5Reloaded).
 
 Have fun! :)
