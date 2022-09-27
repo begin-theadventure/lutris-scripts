@@ -1,3 +1,8 @@
+Sha512sum (r5reloaded.json):
+`````
+927f9aa9fb5de2a36ae528d4e8aefe78e865d9c3f4111a75eb757b610fe4ce9749003330d40c5ac3c2fcfdfde017902772daa98e891fc67d872afaa3694dfaf1
+`````
+
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2/)
 
 Before follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or on R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [\#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
