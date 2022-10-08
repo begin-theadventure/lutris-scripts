@@ -25,9 +25,7 @@ Another way is to use Bottles. Since I don't use it this video may be helpful: [
 
 You can play with Proton & Steam too.
 
-Before download [Origin installer](https://download.dm.origin.com/origin/live/OriginSetup.exe) and [NorthstarProton](https://github.com/cyrv6737/NorthstarProton/releases), put it in ~/.local/share/Steam/compatibilitytools.d.
-
-Warning: Unlike Proton-GE, NorthstarProton doesn't have FSR so if you need it contact the maintainer or use Gamescope.
+Before download [Origin installer](https://download.dm.origin.com/origin/live/OriginSetup.exe) and [GE-Proton7-37](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton7-37) (thanks lu7e for the info; you can try a different version, but it may not work), put it in ~/.local/share/Steam/compatibilitytools.d.
 
 Steps for Steam:
 
