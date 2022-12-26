@@ -64,13 +64,13 @@
               "id": "GPU",
               "options": [
                 {
-                  "#Not needed for AMD.": "AMD"
+                  "dxgi.maxFrameLatency = 1": "AMD"
                 },
                 {
-                  "#First command fixes fps issues on menus.\nd3d11.zeroInitWorkgroupMemory = True\ndxgi.nvapiHack = False": "Nvidia"
+                  "#First command fixes fps issues on menus.\nd3d11.zeroInitWorkgroupMemory = True\ndxgi.nvapiHack = False\ndxgi.maxFrameLatency = 1": "Nvidia"
                 }
               ],
-              "preselect": "#Not needed for AMD."
+              "preselect": "dxgi.maxFrameLatency = 1"
             }
           },
           {
