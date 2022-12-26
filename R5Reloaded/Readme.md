@@ -1,6 +1,6 @@
 Sha512sum (r5reloaded.json):
 `````
-8ee0ca96bdfb49f5bcf28dd279a1c2f2f175668062b2c8780adda2ad8f47a10339dbafd57a4d54616b88d8040fe2e41de8a5f92f7cfe35c27a392f0559234528
+45fcb3e1a4e446fced374baa335c163fc619b470450ddf80715d6c682abb4d71ca329469fc4b681944f8d439954a9af1b6c99107810a75bf2c571c157cc9bd09
 `````
 
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2/)
