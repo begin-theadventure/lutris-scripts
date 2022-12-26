@@ -25,10 +25,13 @@ Steps for Lutris:
 
 1. Click + near "Search games".
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded.json)".
-3. After a successful installation, launch EA App, login and exit the app.
-4. Unfortunately, there's no "Non-EA App Game" option like there's in Origin, instead we can change the executable from EADesktop.exe to r5apex.exe.
+3. After a successful installation, I recommended to change the Wine version to [wine-ge-custom](https://github.com/GloriousEggroll/wine-ge-custom/releases).
 
-    Right click on the banner->Configure->Game options->Executable->path/to/r5apex.exe
+    Close Lutris, add it with [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases), re-open and then right click on the banner->Configure->Runner options->Wine version. After that, launch the EA App, log in and exit the app.
+
+4. Unfortunately there's no "Non-EA App Game" option like in Origin, instead we can change the executable file from EADesktop.exe to r5apex.exe. Right-click on the banner->Configuration->Game Options->Executable->Path/to/r5apex.exee.
+
+    Right click on the banner->Configuration->Game Options->Executable->path/to/r5apex.exe
 
     Now it'll launch the EA App and after it has launched we need to run the exe again, so just double-click on the R5Reloaded banner and after that the game should launch!
 
