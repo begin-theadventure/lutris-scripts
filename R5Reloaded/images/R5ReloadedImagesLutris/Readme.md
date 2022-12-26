@@ -1,4 +1,4 @@
-Images for Lutris, [source](https://twitter.com/r5reloaded).
+Images for Lutris.
 
 [Download](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/R5ReloadedImagesLutris.zip).
 
