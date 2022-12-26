@@ -29,7 +29,7 @@ Steps for Lutris:
 
     Close Lutris, add it with [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases), re-open and then right click on the banner->Configure->Runner options->Wine version. After that, launch the EA App, log in and exit the app.
 
-4. Unfortunately there's no "Non-EA App Game" option like in Origin, instead we can change the executable file from EADesktop.exe to r5apex.exe. Right-click on the banner->Configuration->Game Options->Executable->Path/to/r5apex.exee.
+4. Unfortunately there's no "Non-EA App Game" option like in Origin, instead we can change the executable file from EADesktop.exe to r5apex.exe.
 
     Right click on the banner->Configuration->Game Options->Executable->path/to/r5apex.exe
 
