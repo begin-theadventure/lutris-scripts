@@ -1,8 +1,3 @@
-Sha512sum (r5reloaded.json):
-`````
-45fcb3e1a4e446fced374baa335c163fc619b470450ddf80715d6c682abb4d71ca329469fc4b681944f8d439954a9af1b6c99107810a75bf2c571c157cc9bd09
-`````
-
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2/)
 
 26 Dec 2022 EDIT: Updated tutorial and script for Lutris.
