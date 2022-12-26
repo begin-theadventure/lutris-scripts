@@ -11,13 +11,13 @@
       "year": 2021,
       "user": "begin-theadventure",
       "runner": "wine",
-      "slug": "r5reloaded-origin",
-      "version": "Origin",
-      "description": "",
-      "notes": "Please read before installing: <a href=\"https://github.com/lutris/docs/blob/master/Origin.md\">https://github.com/lutris/docs/blob/master/Origin.md</a>\r\n\r\n-<b>Comes with a DXVK cache for a stutter free experience!</b>\r\n-Crackling sound can be fixed by adding <a href=\"https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting#Glitches.2C_skips_or_crackling\">tsched=0</a> to /etc/pulse/default.pa\r\n-You might want to remove r5reloaded folder under /mnt/Games/Lutris/cache/ directory after installation",
+      "slug": "r5reloaded-ea-app",
+      "version": "EA App",
+      "description": "You might want to remove r5reloaded folder under ~/.cache/lutris/installer directory after installation.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris",
+      "notes": "",
       "credits": "",
       "created_at": "2019-02-04T22:01:18.400000Z",
-      "updated_at": "2022-09-23T00:00:00.400000Z",
+      "updated_at": "2022-12-26T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
@@ -31,15 +31,12 @@
       "script": {
         "files": [
           {
-            "client": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
+            "client": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
           },
-          {
-            "cache": "https://sam.nl.tab.digital/s/oZRKz5So2B8gbzY/download?path=%2Fdxvk-caches%2FR5Reloaded&files=r5apex.dxvk-cache.tar.xz"
-          }
         ],
         "game": {
           "arch": "win64",
-          "exe": "drive_c/Program Files (x86)/Origin/Origin.exe",
+          "exe": "drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe",
           "prefix": "$GAMEDIR"
         },
         "installer": [
@@ -62,24 +59,18 @@
             }
           },
           {
-            "extract": {
-              "dst": "$GAMEDIR/dxvk-cache",
-              "file": "cache"
-            }
-          },
-          {
             "input_menu": {
-              "description": "Setting DXVK workarounds please choose your GPU:",
+              "description": "Setting DXVK workarounds, choose your GPU",
               "id": "GPU",
               "options": [
                 {
-                  "#Not needed for AMD. Ignore this.\n#d3d11.zeroInitWorkgroupMemory = False\ndxgi.nvapiHack = False": "AMD"
+                  "#Not needed for AMD.": "AMD"
                 },
                 {
-                  "Fixes fps issues on menus.\nd3d11.zeroInitWorkgroupMemory = True\ndxgi.nvapiHack = False": "Nvidia"
+                  "#First command fixes fps issues on menus.\nd3d11.zeroInitWorkgroupMemory = True\ndxgi.nvapiHack = False": "Nvidia"
                 }
               ],
-              "preselect": "#Not needed for AMD. Ignore this.\n#d3d11.zeroInitWorkgroupMemory = False"
+              "preselect": "#Not needed for AMD."
             }
           },
           {
@@ -90,7 +81,7 @@
           },
           {
             "task": {
-              "app": "nocrashdialog arial vcrun2017 win10",
+              "app": "nocrashdialog arial vcrun2017 win10 liberation d3dcompiler_47",
               "arch": "win64",
               "name": "winetricks",
               "prefix": "$GAMEDIR"
@@ -100,8 +91,8 @@
             "task": {
               "arch": "win64",
               "args": "/silent",
-              "description": "Installing Origin... Login window will pop-up, close it.",
-              "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe",
+              "description": "Installing EA App..",
+              "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe explorer.exe explorer.exe winedbg.exe",
               "executable": "client",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
@@ -117,15 +108,17 @@
         ],
         "system": {
           "env": {
-            "DXVK_CONFIG_FILE": "$GAMEDIR/dxvk.conf",
-            "DXVK_HUD": "compiler",
-            "DXVK_ASYNC": 1,
-            "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
-            "STAGING_SHARED_MEMORY": 0,
+            "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": 1,
+            "__GL_SHADER_DISK_CACHE": 1000000000,
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR",
             "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders",
-            "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders"
+            "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders",
+            "DXVK_HUD": "compiler",
+            "DXVK_CONFIG_FILE": "$GAMEDIR/dxvk.conf",
+            "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
+            "STAGING_SHARED_MEMORY": 0
           },
-          "exclude_processes": "QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe"
+          "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe"
         },
         "wine": {
           "dxvk": true,
