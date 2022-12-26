@@ -60,7 +60,7 @@
           },
           {
             "input_menu": {
-              "description": "Setting DXVK workarounds, choose your GPU",
+              "description": "Setting DXVK config, choose your GPU.",
               "id": "GPU",
               "options": [
                 {
