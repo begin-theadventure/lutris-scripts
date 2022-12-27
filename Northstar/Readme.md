@@ -19,7 +19,7 @@ Steps:
 
 4. Now it depends on where you got the game.
 
-    If from Steam then you can skip it altogether, although have in mind that it won't count the hours played however you can also use Steam in the Wine prefix and run the game using it (if you need help with this, ask me).
+    If from Steam then you can skip it altogether, although have in mind that it won't count the hours played however you can also use Steam in the Wine prefix and run the game using it (if you need help with this, ask me//I might update this soon).
 
     Steam: Launch EA->in Lutris: ▲->Run EXE inside Wine prefix->NorthstarLauncher.exe
 
@@ -31,7 +31,7 @@ Steps:
 
     Start downloading Titanfall 2, close the EA App, after that remove the Titanfall2 folder from the path/to/northstar-client/drive_c/Program Files/EA Games/ directory and symlink the game folder to the same folder, open the EA App and now it should verify the files after it's done rename `NorthstarLauncher.exe` to `Titanfall2.exe`. Keep in mind that I haven't tested this.
 
-Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source](https://github.com/R2NorthstarTools/NorthstarLogo).
+Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
 
 Another way is to use Bottles. Since I don't use it this video may be helpful: [https://youtu.be/VqDgrHCPWG8?t=368](https://youtu.be/VqDgrHCPWG8?t=368)
 
