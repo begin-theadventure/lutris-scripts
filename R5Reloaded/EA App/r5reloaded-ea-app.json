@@ -13,7 +13,7 @@
       "runner": "wine",
       "slug": "r5reloaded-ea-app",
       "version": "EA App",
-      "description": "You might want to remove r5reloaded folder under ~/.cache/lutris/installer directory after installation.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris",
+      "description": "You might want to remove r5reloaded folder under ~/.cache/lutris/installer directory after installation.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded",
       "notes": "",
       "credits": "",
       "created_at": "2019-02-04T22:01:18.400000Z",
