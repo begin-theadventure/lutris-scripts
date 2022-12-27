@@ -30,7 +30,7 @@ Steps for Lutris:
 
     Now it'll launch the EA App and after it has launched we need to run the exe again, so just double-click on the R5Reloaded banner and after that the game should launch!
 
-Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview]( https://nitter.net/R5Reloaded).
+Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://twitter.com/R5Reloaded).
 
 Another way is to use Bottles. Since I don't use it this video may be helpful: [https://youtu.be/VqDgrHCPWG8?t=368](https://youtu.be/VqDgrHCPWG8?t=368)
 
@@ -52,7 +52,7 @@ Steps for Steam:
    (I recommend to symlink or move the R5Reloaded folder to x/drive_c/Program Files (x86)/Origin Games).
 7. Play.
 
-Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesSteam). [Source/preview]( https://nitter.net/R5Reloaded).
+Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesSteam). [Source/preview]( https://twitter.com/R5Reloaded).
 
 Have fun! :)
 
