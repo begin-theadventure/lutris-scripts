@@ -22,7 +22,7 @@ Steps for Lutris:
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded.json)".
 3. After a successful installation, I recommended to change the Wine version to [wine-ge-custom](https://github.com/GloriousEggroll/wine-ge-custom/releases).
 
-    Close Lutris, add it with [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases), re-open and then right click on the banner->Configure->Runner options->Wine version. After that, launch the EA App, log in and exit the app.
+    Close Lutris, open [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases) and install Wine-GE (in case the latest one doesn't work, try [7-35](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton7-35)), re-open and then right click on the banner->Configure->Runner options->Wine version. After that, launch the EA App, log in and exit the app.
 
 4. Unfortunately there's no "Non-EA App Game" option like in Origin, instead we can change the executable file from EADesktop.exe to r5apex.exe.
 
