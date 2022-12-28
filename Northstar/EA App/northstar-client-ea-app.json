@@ -13,11 +13,11 @@
       "runner": "wine",
       "slug": "northstar-ea-app",
       "version": "EA App",
-      "description": "You might want to remove northstar-client folder under ~/.cache/lutris/installer directory after installation.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/Northstar/images/NorthstarImagesLutris",
+      "description": "You might want to remove northstar-client folder under ~/.cache/lutris/installer directory after installation.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/Northstar/images/NorthstarImagesLutris\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/Northstar",
       "notes": "",
       "credits": "",
-      "created_at": "2022-12-26T22:01:18.400000Z",
-      "updated_at": "2022-12-26T00:00:00.400000Z",
+      "created_at": "2022-12-26T00:00:00.400000Z",
+      "updated_at": "2022-12-28T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
@@ -43,7 +43,7 @@
           {
             "task": {
               "arch": "win64",
-              "description": "Creating Wine prefix",
+              "description": "Creating Wine prefix.",
               "name": "create_prefix",
               "prefix": "$GAMEDIR"
             }
@@ -67,7 +67,7 @@
                   "dxgi.maxFrameLatency = 1": "AMD"
                 },
                 {
-                  "dxgi.nvapiHack = False\ndxgi.maxFrameLatency = 1": "Nvidia"
+                  "dxgi.nvapiHack = False\ndxgi.maxFrameLatency = 1": "NVIDIA"
                 }
               ],
               "preselect": "dxgi.maxFrameLatency = 1"
@@ -81,7 +81,7 @@
           },
           {
             "task": {
-              "app": "nocrashdialog arial faudio vcrun2010 vcrun2013 vcrun2015 win10 liberation d3dcompiler_47",
+              "app": "arial nocrashdialog faudio vcrun2010 vcrun2013 vcrun2015 win10 liberation d3dcompiler_47",
               "arch": "win64",
               "name": "winetricks",
               "prefix": "$GAMEDIR"
@@ -118,7 +118,7 @@
             "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
             "STAGING_SHARED_MEMORY": 0
           },
-          "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe"
+          "exclude_processes": ""
         },
         "wine": {
           "dxvk": true,
