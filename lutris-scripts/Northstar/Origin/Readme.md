@@ -5,7 +5,7 @@ This is a tutorial on how to play the Northstar client on Linux with Lutris+Wine
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/Northstar) for Lutris that will set the prefix.
 
-It's based on [Titanfall 2](https://lutris.net/games/titanfall-2) and [R5Reloaded](https://github.com/begin-theadventure/lutris-scripts/blob/main/R5Reloaded) scripts.
+It's based on [Titanfall 2](https://lutris.net/games/titanfall-2) and [R5Reloaded](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded) scripts.
 
 If you already already have the game files install the client first, if not do it for later but if you do then just skip it.
 
@@ -14,7 +14,7 @@ You can do it manually (extract the zip file and drop everything in the game fol
 Steps:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client.json)" and open it. After succesful installation, launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-origin.json)" and open it. After succesful installation, launch.
 3. Changing settings to save resources (you can skip this).
 
     To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!) see this Reddit post, [link](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/northstar-client/drive_c/Program Files (x86)/Origin/platforms
@@ -37,7 +37,7 @@ Steps:
 
     After that the game should be ready to play!
 
-Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/Northstar/images/NorthstarImagesLutris#readme). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
+Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/images/NorthstarImagesLutris#readme). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
 
 Another way is to use Bottles. Since I don't use it, this video may be helpful: [https://youtu.be/VqDgrHCPWG8?t=368](https://youtu.be/VqDgrHCPWG8?t=368)
 
