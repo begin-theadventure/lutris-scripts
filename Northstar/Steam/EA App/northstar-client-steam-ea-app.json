@@ -1,0 +1,147 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "",
+      "game_id": "",
+      "game_slug": "northstar-client",
+      "name": "Northstar",
+      "year": 2021,
+      "user": "begin-theadventure",
+      "runner": "wine",
+      "slug": "northstar-ea-app",
+      "version": "Steam with EA App",
+      "description": "You might want to remove northstar-client folder under ~/.cache/lutris/installer directory after installation.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/Northstar/images/NorthstarImagesLutris\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/Northstar",
+      "notes": "",
+      "credits": "",
+      "created_at": "2022-12-28T00:00:00.400000Z",
+      "updated_at": "2022-12-28T00:00:00.400000Z",
+      "draft": false,
+      "published": false,
+      "published_by": ,
+      "rating": "",
+      "steamid": ,
+      "gogid": null,
+      "gogslug": "",
+      "humbleid": "",
+      "humblestoreid": "",
+      "humblestoreid_real": "",
+      "script": {
+        "files": [
+          {
+            "client": "https://cdn.steamstatic.com/client/installer/SteamSetup.exe"
+          },
+          {
+            "client2": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
+          },
+        ],
+        "game": {
+          "arch": "win64",
+          "exe": "drive_c/Program Files (x86)/Steam/Steam.exe",
+          "prefix": "$GAMEDIR"
+        },
+        "installer": [
+          {
+            "task": {
+              "arch": "win64",
+              "description": "Creating Wine prefix.",
+              "name": "create_prefix",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "execute": {
+              "command": "mkdir \"$GAMEDIR/nv-shaders\""
+            }
+          },
+          {
+            "execute": {
+              "command": "mkdir \"$GAMEDIR/mesa-shaders\""
+            }
+          },
+          {
+            "input_menu": {
+              "description": "Setting DXVK config, choose your GPU.",
+              "id": "GPU",
+              "options": [
+                {
+                  "dxgi.maxFrameLatency = 1": "AMD"
+                },
+                {
+                  "dxgi.nvapiHack = False\ndxgi.maxFrameLatency = 1": "NVIDIA"
+                }
+              ],
+              "preselect": "dxgi.maxFrameLatency = 1"
+            }
+          },
+          {
+            "write_file": {
+              "content": "$INPUT_GPU",
+              "file": "$GAMEDIR/dxvk.conf"
+            }
+          },
+          {
+            "task": {
+              "app": "arial nocrashdialog faudio vcrun2010 vcrun2013 vcrun2015 win10 liberation d3dcompiler_47",
+              "arch": "win64",
+              "name": "winetricks",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "args": "/silent",
+              "description": "Installing Steam.. Uncheck Run Steam and click Finish.",
+              "exclude_processes": "",
+              "executable": "client",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "args": "/silent",
+              "description": "Installing EA App..",
+              "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe explorer.exe explorer.exe winedbg.exe",
+              "executable": "client2",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "name": "winekill",
+              "prefix": "$GAMEDIR"
+            }
+          },
+        ],
+        "system": {
+          "env": {
+            "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": 1,
+            "__GL_SHADER_DISK_CACHE_SIZE": 1000000000,
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR",
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders",
+            "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders",
+            "DXVK_HUD": "compiler",
+            "DXVK_CONFIG_FILE": "$GAMEDIR/dxvk.conf",
+            "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
+            "STAGING_SHARED_MEMORY": 0
+          },
+          "exclude_processes": "QtWebEngineProcess.exe"
+        },
+        "wine": {
+          "dxvk": true,
+          "overrides": {
+            "nvapi,nvapi64": "disabled",
+            "xaudio2_7": "native,builtin"
+          }
+        }
+      },
+    }
+  ]
+}
