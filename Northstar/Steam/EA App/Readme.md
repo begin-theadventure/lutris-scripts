@@ -3,7 +3,7 @@ Hey!
 
 This is a tutorial on how to play the Northstar client on Linux.
 
-I made a [script](https://github.com/begin-theadventure/lutris-scripts/blob/main/Northstar/northstar-client.json) for Lutris that will set the prefix.
+I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/Northstar) for Lutris that will set the prefix.
 
 It's based on [Titanfall 2](https://lutris.net/games/titanfall-2/) and [R5Reloaded](https://github.com/begin-theadventure/lutris-scripts/blob/main/R5Reloaded/r5reloaded.json) scripts, which in turn is based on [Apex Legends](https://lutris.net/games/apex-legends) and [Origin](https://lutris.net/games/origin) or [EA App](https://lutris.net/games/ea-desktop) scripts.
 
@@ -14,7 +14,7 @@ You can do it manually (extract the zip file and drop everything in the game fol
 Steps:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client.json)" and open it. After succesful installation, launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-steam-ea-app.json)" and open it. After succesful installation, launch.
 3. Changing settings to save resources and some bugs (you can skip this).
 
     Log in to Steam. I couldn't log in with the QR code, so I used my login and password. A restart may be needed.
