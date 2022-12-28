@@ -43,7 +43,7 @@ Steps:
 
     Now exit Steam & EA App.
 
-4. If you don't have the game files, install via Steam, but if you do, you can add them::
+4. If you don't have the game files, install via Steam, but if you do, you can add them:
 
     To add the game move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/northstar-client/drive_c/Program Files (x86)/Steam and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
 
