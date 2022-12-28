@@ -49,7 +49,7 @@ Steps:
 
     Open Steam and now Titanfall 2 will be in you library!
 
-    Add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff and after that the game should be ready to play!
+    Rename `NorthstarLauncher.exe` to `Titanfall2.exe`, add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff and after that the game should be ready to play!
 
 Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/images/NorthstarImagesLutris#readme). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
 
