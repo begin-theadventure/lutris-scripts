@@ -1,4 +1,4 @@
-Images for Lutris, [source](https://github.com/R2NorthstarTools/NorthstarLogo)
+Images for Lutris, [source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
 
 [Download](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/NorthstarImagesLutris.zip).
 
