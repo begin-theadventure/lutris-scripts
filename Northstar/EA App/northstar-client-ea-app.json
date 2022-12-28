@@ -118,7 +118,7 @@
             "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
             "STAGING_SHARED_MEMORY": 0
           },
-          "exclude_processes": ""
+          "exclude_processes": "QtWebEngineProcess.exe"
         },
         "wine": {
           "dxvk": true,
