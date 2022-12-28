@@ -51,7 +51,7 @@ Steps:
 
     Add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff and after that the game should be ready to play!
 
-Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
+Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/Northstar/images/NorthstarImagesLutris#readme). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
 
 Another way is to use Bottles. Since I don't use it, this video may be helpful: [https://youtu.be/VqDgrHCPWG8?t=368](https://youtu.be/VqDgrHCPWG8?t=368)
 
