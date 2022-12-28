@@ -14,7 +14,7 @@ You can do it manually (extract the zip file and drop everything in the game fol
 Steps:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-steam-ea-app.json)" and open it. After succesful installation, launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-steam-origin.json)" and open it. After succesful installation, launch.
 3. Changing settings to save resources and some bugs (you can skip this).
 
     Log in to Steam. I couldn't log in with the QR code, so I used my login and password. A restart may be needed.
@@ -49,7 +49,7 @@ Steps:
 
     Now exit Steam & Origin.
 
-4. If you don't have the game files, install via Steam, but if you do, you can add them::
+4. If you don't have the game files, install via Steam, but if you do, you can add them:
 
     To add the game move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/northstar-client/drive_c/Program Files (x86)/Steam and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
 
