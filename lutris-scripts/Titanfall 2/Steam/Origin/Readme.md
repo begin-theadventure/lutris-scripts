@@ -10,7 +10,7 @@ It's based on [Titanfall 2](https://lutris.net/games/titanfall-2) and [Origin](h
 Steps:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Titanfall-2/titanfall-2-client-steam-origin.json)" and open it. After succesful installation, click Launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Titanfall-2/titanfall-2-steam-origin.json)" and open it. After succesful installation, click Launch.
 3. Changing settings to save resources and some bugs (you can skip this).
 
     Log in to Steam. I couldn't log in with the QR code, so I used my login and password. A restart may be needed.
