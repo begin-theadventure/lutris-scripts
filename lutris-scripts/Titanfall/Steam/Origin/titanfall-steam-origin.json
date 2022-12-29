@@ -11,8 +11,8 @@
       "year": 2014,
       "user": "begin-theadventure",
       "runner": "wine",
-      "slug": "titanfall-origin",
-      "version": "Origin",
+      "slug": "titanfall-steam-origin",
+      "version": "Steam with Origin",
       "description": "You might want to remove titanfall folder under ~/.cache/lutris/installer directory after installation.\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Titanfall",
       "notes": "",
       "credits": "",
@@ -31,12 +31,15 @@
       "script": {
         "files": [
           {
-            "client": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
+            "client": "https://cdn.steamstatic.com/client/installer/SteamSetup.exe"
+          },
+          {
+            "client2": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
           },
         ],
         "game": {
           "arch": "win64",
-          "exe": "drive_c/Program Files (x86)/Origin/Origin.exe",
+          "exe": "drive_c/Program Files (x86)/Steam/Steam.exe",
           "prefix": "$GAMEDIR"
         },
         "installer": [
@@ -77,9 +80,20 @@
             "task": {
               "arch": "win64",
               "args": "/silent",
+              "description": "Installing Steam.. Uncheck Run Steam and click Finish.",
+              "exclude_processes": "",
+              "executable": "client",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "args": "/silent",
               "description": "Installing Origin..",
               "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe",
-              "executable": "client",
+              "executable": "client2",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
             }
