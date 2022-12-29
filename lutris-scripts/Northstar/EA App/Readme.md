@@ -7,9 +7,9 @@ I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/
 
 It's based on [Titanfall 2](https://lutris.net/games/titanfall-2), the [EA App](https://lutris.net/games/ea-desktop) scripts and this [Reddit post](https://www.reddit.com/r/linux_gaming/comments/qhq3pn/ea_desktop_finally_working).
 
-If you already already have the game files install the client first, if not do it for later but if you do then just skip it.
+If you already have the game files install the client first, if not then skip it and do it after installing the game.
 
-You can do it manually (extract the zip file and drop everything in the game folder), using my auto shell [script](https://github.com/begin-theadventure/northstar-upllers/releases) or [Viper](https://github.com/0neGal/viper/releases).
+You can do it manually (extract the [zip file](https://github.com/R2Northstar/Northstar/releases) and drop everything in the game folder), using my auto shell [script](https://github.com/begin-theadventure/northstar-upllers/releases) or [Viper](https://github.com/0neGal/viper/releases).
 
 Steps:
 

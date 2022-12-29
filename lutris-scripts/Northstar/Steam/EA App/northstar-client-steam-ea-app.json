@@ -139,6 +139,7 @@
           "dxvk": true,
           "overrides": {
             "nvapi,nvapi64": "disabled",
+            "wsock32": "native,builtin",
             "xaudio2_7": "native,builtin"
           }
         }

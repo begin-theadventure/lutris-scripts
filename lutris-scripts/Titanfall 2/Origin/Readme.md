@@ -29,7 +29,7 @@ Steps:
 
     Symlink the Titanfall2 folder to /path/to/titanfall-2/drive_c/Program Files (x86)/Origin Games
 
-    Open Origin->right click on Titanfall 2->Locate Game and it will verify the game files.
+    Origin->right click on Titanfall 2->Locate Game and it will verify the game files.
 
     After that the game should be ready to play!
 

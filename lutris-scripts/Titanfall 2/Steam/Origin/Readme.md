@@ -15,7 +15,7 @@ Steps:
 
     Log in to Steam. I couldn't log in with the QR code, so I used my login and password. A restart may be needed.
 
-    Running Steam with these arguments will have a less buggy GUI (albeit with fewer features), and may save more resources:
+    Running Steam with these arguments will have a less buggy GUI, and may save more resources (albeit -no-browser means fewer features):
 
     Lutris->right click on the banner->Configure->Game options->`-no-browser +open steam://open/minigameslist`->Re-open.
 
@@ -49,7 +49,7 @@ Steps:
 
     To add the game move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/titanfall-2/drive_c/Program Files (x86)/Steam and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
 
-    Open Steam and now Titanfall 2 will be in you library!
+    Open Steam and now Titanfall 2 will be in your library!
 
     Add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff and after that the game should be ready to play!
 

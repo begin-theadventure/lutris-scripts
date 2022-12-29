@@ -7,9 +7,9 @@ I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/
 
 It's based on [Titanfall 2](https://lutris.net/games/titanfall-2), the [EA App](https://lutris.net/games/ea-desktop) scripts and this [Reddit post](https://www.reddit.com/r/linux_gaming/comments/qhq3pn/ea_desktop_finally_working).
 
-If you already already have the game files install the client first, if not do it for later but if you do then just skip it.
+If you already have the game files install the client first, if not then skip it and do it after installing the game.
 
-You can do it manually (extract the zip file and drop everything in the game folder), using my auto shell [script](https://github.com/begin-theadventure/northstar-upllers/releases) or [Viper](https://github.com/0neGal/viper/releases).
+You can do it manually (extract the [zip file](https://github.com/R2Northstar/Northstar/releases) and drop everything in the game folder), using my auto shell [script](https://github.com/begin-theadventure/northstar-upllers/releases) or [Viper](https://github.com/0neGal/viper/releases).
 
 Steps:
 
@@ -19,7 +19,7 @@ Steps:
 
     Log in to Steam. I couldn't log in with the QR code, so I used my login and password. A restart may be needed.
 
-    Running Steam with these arguments will have a less buggy GUI (albeit with fewer features), and may save more resources:
+    Running Steam with these arguments will have a less buggy GUI, and may save more resources (albeit -no-browser means fewer features, including Properties):
 
     Lutris->right click on the banner->Configure->Game options->`-no-browser +open steam://open/minigameslist`->Re-open.
 
@@ -47,9 +47,9 @@ Steps:
 
     To add the game move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/northstar-client/drive_c/Program Files (x86)/Steam and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
 
-    Open Steam and now Titanfall 2 will be in you library!
+    Open Steam and now Titanfall 2 will be in your library!
 
-    Rename `NorthstarLauncher.exe` to `Titanfall2.exe`, add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff and after that the game should be ready to play!
+    Right click on it->Properties->LAUNCH OPTIONS->type in `-northstar`, add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff and after that the game should be ready to play!
 
 Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/images/NorthstarImagesLutris#readme). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
 
