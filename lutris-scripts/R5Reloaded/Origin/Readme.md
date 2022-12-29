@@ -35,7 +35,7 @@ Before download [Origin installer](https://download.dm.origin.com/origin/live/Or
 Steps for Steam:
 
 1. ADD A GAME -> Add a Non-Steam Game... -> OriginSetup.exe.
-2. Right click -> Properties... -> COMPATIBILITY: NorthstarProton.
+2. Right click -> Properties... -> COMPATIBILITY:.
 3. Disabling **hardware acceleration** (you can skip this).
     To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!) see this Reddit post, [link](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/x/prefix/drive_c/Program Files (x86)/Origin/platfo
 4. PLAY -> install Origin and after close.

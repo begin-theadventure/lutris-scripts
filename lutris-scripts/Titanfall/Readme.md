@@ -1,4 +1,4 @@
-## Northstar scripts
+## Titanfall scripts
 
 There are four scripts for Origin, the EA App, Steam with Origin and Steam with the EA App.
 

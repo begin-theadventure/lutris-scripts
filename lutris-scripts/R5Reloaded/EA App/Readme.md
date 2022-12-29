@@ -8,7 +8,7 @@ From v2.0.2_rc, the workaround that was to run lutris with "echo 1 |" is no long
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/R5Reloaded) for Lutris which will set the prefix.
 
-It's based on [Apex Legends](https://lutris.net/games/apex-legends), [EA App](https://lutris.net/games/ea-desktop) scripts and this [Reddit post](https://www.reddit.com/r/linux_gaming/comments/qhq3pn/ea_desktop_finally_working).
+It's based on [Apex Legends](https://lutris.net/games/apex-legends), the [EA App](https://lutris.net/games/ea-desktop) scripts and this [Reddit post](https://www.reddit.com/r/linux_gaming/comments/qhq3pn/ea_desktop_finally_working).
 
 Before, follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or on R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 

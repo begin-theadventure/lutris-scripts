@@ -4,25 +4,25 @@
   "previous": null,
   "results": [
     {
-      "id": "",
-      "game_id": "",
-      "game_slug": "northstar-client",
-      "name": "Northstar",
-      "year": 2021,
+      "id": "8616",
+      "game_id": "17621",
+      "game_slug": "titanfall-2",
+      "name": "Titanfall 2",
+      "year": 2016,
       "user": "begin-theadventure",
       "runner": "wine",
-      "slug": "northstar-ea-app",
-      "version": "EA App",
-      "description": "You might want to remove northstar-client folder under ~/.cache/lutris/installer directory after installation.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/Northstar/images/NorthstarImagesLutris\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/Northstar",
+      "slug": "titanfall-2-origin",
+      "version": "Origin",
+      "description": "You might want to remove titanfall-2 folder under ~/.cache/lutris/installer directory after installation.\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Titanfall%202",
       "notes": "",
       "credits": "",
-      "created_at": "2022-12-26T00:00:00.400000Z",
+      "created_at": "2022-12-29T00:00:00.400000Z",
       "updated_at": "2022-12-29T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
       "rating": "",
-      "steamid": ,
+      "steamid": 1237970,
       "gogid": null,
       "gogslug": "",
       "humbleid": "",
@@ -31,12 +31,12 @@
       "script": {
         "files": [
           {
-            "client": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
+            "client": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
           },
         ],
         "game": {
           "arch": "win64",
-          "exe": "drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe",
+          "exe": "drive_c/Program Files (x86)/Origin/Origin.exe",
           "prefix": "$GAMEDIR"
         },
         "installer": [
@@ -81,8 +81,7 @@
           },
           {
             "task": {
-              "app": "nocrashdialog faudio vcrun2010 vcrun2013 vcrun2015 win10 liberation d3dcompiler_47",
-              "description": "Installing dependencies..",
+              "app": "arial nocrashdialog faudio vcrun2010 vcrun2013 vcrun2015 win10",
               "arch": "win64",
               "name": "winetricks",
               "prefix": "$GAMEDIR"
@@ -92,8 +91,8 @@
             "task": {
               "arch": "win64",
               "args": "/silent",
-              "description": "Installing the EA App..",
-              "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe explorer.exe explorer.exe winedbg.exe",
+              "description": "Installing Origin..",
+              "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe",
               "executable": "client",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
@@ -119,7 +118,7 @@
             "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
             "STAGING_SHARED_MEMORY": 0
           },
-          "exclude_processes": "QtWebEngineProcess.exe"
+          "exclude_processes": "QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe"
         },
         "wine": {
           "dxvk": true,

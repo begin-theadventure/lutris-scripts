@@ -5,7 +5,7 @@ This is a tutorial on how to play the Northstar client on Linux with Lutris+Wine
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/Northstar) for Lutris that will set the prefix.
 
-It's based on [Titanfall 2](https://lutris.net/games/titanfall-2) and [R5Reloaded](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded) scripts.
+It's based on [Titanfall 2](https://lutris.net/games/titanfall-2), the [EA App](https://lutris.net/games/ea-desktop) scripts and this [Reddit post](https://www.reddit.com/r/linux_gaming/comments/qhq3pn/ea_desktop_finally_working).
 
 If you already already have the game files install the client first, if not do it for later but if you do then just skip it.
 
@@ -21,7 +21,7 @@ Steps:
 
     _Application_: **Enable In-game overlay**.
 
-4. If you don't have the game files, install them, but if you do, EA App has no option to add them (it's possible with [Origin](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/Origin)), alternatively you can Run EXE inside prefix (NorthstarLauncher), but it won't count the hours played.
+4. If you don't have the game files, install them, but if you do, the EA App has no option to add them (it's possible with [Origin](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/Origin)), alternatively you can Run EXE inside prefix (NorthstarLauncher), but it won't count the hours played.
 
     After that the game should be ready to play!
 

@@ -5,7 +5,7 @@ This is a tutorial on how to play the Northstar client on Linux with Lutris+Wine
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/Northstar) for Lutris that will set the prefix.
 
-It's based on [Titanfall 2](https://lutris.net/games/titanfall-2) and [R5Reloaded](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded) scripts.
+It's based on [Titanfall 2](https://lutris.net/games/titanfall-2) and [Origin](https://lutris.net/games/origin) scripts.
 
 If you already already have the game files install the client first, if not do it for later but if you do then just skip it.
 
