@@ -29,7 +29,7 @@ Steps:
 
 4. If you don't have the game files, install them, but if you do, you can add them:
 
-    Symlink/move the Titanfall folder to /path/to/titanfall/drive_c/Program Files (x86)/Origin Games
+    Symlink the Titanfall folder to /path/to/titanfall/drive_c/Program Files (x86)/Origin Games
 
     Open Origin->right click on Titanfall->Locate Game and it will verify the game files.
 
