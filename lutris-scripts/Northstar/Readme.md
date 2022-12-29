@@ -8,4 +8,6 @@ In my case: Origin without hardware acceleration turned off consumes 500+ MiB, a
 
 Origin also has an option to locate the game, while the EA App doesn't.
 
+Another thing the EA App doesn't have is "Command line arguments", which means you can't use the `-northstar` argument unless you have the game on Steam.
+
 Why are there scripts for Steam? If you prefer Lutris+Wine and have the game on Steam.
