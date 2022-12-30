@@ -24,7 +24,7 @@ Steps for Lutris:
 
     ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically, launcher.exe allows to choose various options.
 
-Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://twitter.com/R5Reloaded).
+Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://twitter.com/R5Reloaded).
 
 Another way is to use Bottles. Since I don't use it this video may be helpful: https://youtu.be/VqDgrHCPWG8?t=368
 
@@ -44,7 +44,7 @@ Steps for Steam:
 7. PLAY -> Origin: ADD A GAME -> Non-Origin Game... r5apex.exe
 8. Play.
 
-Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/utris-scripts/R5Reloaded/images/R5ReloadedImagesSteam). [Source/preview](https://twitter.com/r5reloaded).
+Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesSteam#readme). [Source/preview](https://twitter.com/r5reloaded).
 
 Have fun! :)
 
