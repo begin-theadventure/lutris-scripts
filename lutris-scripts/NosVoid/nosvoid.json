@@ -40,7 +40,7 @@
           {
             "task": {
               "arch": "win64",
-              "description": "Creating a Wine prefix.",
+              "description": "Creating a Wine prefix..",
               "name": "create_prefix",
               "prefix": "$GAMEDIR"
             }
