@@ -6,6 +6,11 @@ The game crashes with Windows version 7 upwards, so the script sets Vista instea
 Windows 7/8 version wasn't tested, but 10/11 works anyway.
 
 ## Tutorial
+
+Hey!
+
+I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/NosVoid) for Lutris which will set the prefix.
+
 This Wine version compiled by me is required as it has a fix for mouse control: https://github.com/begin-theadventure/wine-tkg-nostale/releases
 
 Download it and extract the zip file to:
