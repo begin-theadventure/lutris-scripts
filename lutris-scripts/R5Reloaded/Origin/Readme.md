@@ -26,8 +26,6 @@ Steps for Lutris:
 
 Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://twitter.com/R5Reloaded).
 
-Another way is to use Bottles. Since I don't use it this video may be helpful: https://youtu.be/VqDgrHCPWG8?t=368
-
 You can play with Steam+Proton too.
 
 Before download [Origin installer](https://download.dm.origin.com/origin/live/OriginSetup.exe) and [GE-Proton7-37](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton7-37) (thanks lu7e for the info; you can try a different version, but it may not work), put it in ~/.local/share/Steam/compatibilitytools.d or use [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases).
@@ -47,5 +45,3 @@ Steps for Steam:
 Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesSteam#readme). [Source/preview](https://twitter.com/r5reloaded).
 
 Have fun! :)
-
-[v1 tutorial](https://www.reddit.com/r/ApexLegendsOnLinux/comments/pd56t5/r5reloaded_is_working_on_gnulinux/)

@@ -26,8 +26,4 @@ Steps:
 
 Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://twitter.com/R5Reloaded).
 
-Another way is to use Bottles. Since I don't use it this video may be helpful: https://youtu.be/VqDgrHCPWG8?t=368
-
 Have fun! :)
-
-[v1 tutorial](https://www.reddit.com/r/ApexLegendsOnLinux/comments/pd56t5/r5reloaded_is_working_on_gnulinux/)

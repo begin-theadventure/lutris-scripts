@@ -21,6 +21,4 @@ Steps:
 
     After that the game should be ready to play!
 
-Another way is to use Bottles. Since I don't use it, this video may be helpful: [https://youtu.be/VqDgrHCPWG8?t=368](https://youtu.be/VqDgrHCPWG8?t=368)
-
 Have fun! :)
