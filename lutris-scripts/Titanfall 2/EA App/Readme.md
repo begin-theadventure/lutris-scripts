@@ -1,7 +1,7 @@
 ## Tutorial
 Hey!
 
-This is a tutorial on how to play the Titanfall 2 on Linux with Lutris+Wine.
+This is a tutorial on how to play Titanfall 2 on Linux with Lutris+Wine.
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/Titanfall-2) for Lutris that will set the prefix.
 
