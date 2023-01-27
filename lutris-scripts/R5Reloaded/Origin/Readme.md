@@ -1,4 +1,4 @@
-## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2/)
+## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2)
 
 Hey!
 
@@ -25,23 +25,5 @@ Steps for Lutris:
     ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically, launcher.exe allows to choose various options.
 
 Images for Lutris (banner, covert art and icon), [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://twitter.com/R5Reloaded).
-
-You can play with Steam+Proton too.
-
-Before download [Origin installer](https://download.dm.origin.com/origin/live/OriginSetup.exe) and [GE-Proton7-37](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton7-37) (thanks lu7e for the info; you can try a different version, but it may not work), put it in ~/.local/share/Steam/compatibilitytools.d or use [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases).
-
-Steps for Steam:
-
-1. ADD A GAME -> Add a Non-Steam Game... -> OriginSetup.exe.
-2. Right click -> Properties... -> COMPATIBILITY:.
-3. Disabling **hardware acceleration** (you can skip this).
-    To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!) see this Reddit post, [link](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/x/prefix/drive_c/Program Files (x86)/Origin/platfo
-4. PLAY -> install Origin and after close.
-5. Find the prefix under: ~/.local/share/Steam/steamapps/compatdata/x
-6. Right click -> Properties... -> TARGET: "/path/to/x/pfx/drive_c/Program Files (x86)/Origin/Origin.exe" and START IN: "/path/to/x/pfx/".
-7. PLAY -> Origin: ADD A GAME -> Non-Origin Game... r5apex.exe
-8. Play.
-
-Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesSteam#readme). [Source/preview](https://twitter.com/r5reloaded).
 
 Have fun! :)
