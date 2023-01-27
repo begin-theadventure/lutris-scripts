@@ -77,7 +77,6 @@
           "env": {
             "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": 1,
             "__GL_SHADER_DISK_CACHE_SIZE": 1000000000,
-            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR",
             "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders",
             "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders",
             "DXVK_HUD": "compiler",

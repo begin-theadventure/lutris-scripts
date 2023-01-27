@@ -13,7 +13,7 @@
       "runner": "wine",
       "slug": "titanfall-2-steam-origin",
       "version": "Steam with Origin",
-      "description": "You might want to remove titanfall-2 folder under ~/.cache/lutris/installer directory after installation.\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Titanfall%202",
+      "description": "Link to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Titanfall%202",
       "notes": "",
       "credits": "",
       "created_at": "2022-12-29T00:00:00.400000Z",
@@ -124,7 +124,6 @@
           "env": {
             "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": 1,
             "__GL_SHADER_DISK_CACHE_SIZE": 1000000000,
-            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR",
             "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders",
             "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders",
             "DXVK_HUD": "compiler",
