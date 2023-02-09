@@ -16,7 +16,7 @@ Steps:
 2. ADD A GAME -> Add a Non-Steam Game... -> OriginSetup.exe.
 3. Right click -> Properties... -> COMPATIBILITY:.
 4. Disabling **hardware acceleration** (you can skip this).
-    To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!) see this Reddit post, [link](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/x/prefix/drive_c/Program Files (x86)/Origin/platfo
+    To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!) see this Reddit post, [link](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/x/prefix/drive_c/Program Files (x86)/Origin/platforms
 5. PLAY -> install Origin and after close.
 6. Find the prefix under: ~/.local/share/Steam/steamapps/compatdata/x
 7. Right click -> Properties... -> TARGET: "/path/to/x/pfx/drive_c/Program Files (x86)/Origin/Origin.exe" and START IN: "/path/to/x/pfx/".
