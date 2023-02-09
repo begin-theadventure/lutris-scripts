@@ -21,7 +21,7 @@ Steps:
 
     _Application_: **Enable In-game overlay**.
 
-4. If you don't have the game files, install them, but if you do, the EA App has no option to add them (it's possible with [Origin](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/Origin)). Rename `NorthstarLauncher.exe` `to Titanfall2.exe` or you can also Run EXE inside prefix (NorthstarLauncher.exe) without adding the files, but it won't count the hours played.
+4. If you don't have the game files, install them, but if you do, the EA App has no option to add them (it's possible with [Origin](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/Origin)). Rename `NorthstarLauncher.exe` to `Titanfall2.exe` or you can also Run EXE inside prefix (NorthstarLauncher.exe) without adding the files, but it won't count the hours played.
 
     After that the game should be ready to play!
 
