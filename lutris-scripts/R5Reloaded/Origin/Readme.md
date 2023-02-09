@@ -19,6 +19,7 @@ Steps for Lutris:
 1. Click + near "Search games".
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-origin.json)". and open it. After succesful installation, click Launch.
 3. Disabling **hardware acceleration** (you can skip this).
+
     To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!) see this Reddit post, [link](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/r5reloaded/drive_c/Program Files (x86)/Origin/platfo
 4. Add the game to Origin.
 
