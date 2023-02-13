@@ -23,7 +23,7 @@ Steps:
 
 4. If you don't have the game files, install them, but if you do, the EA App has no option to add them (it's possible with [Origin](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/Origin)).
 
-    You can also Run EXE inside prefix (NorthstarLauncher.exe) without adding the files, but it won't count the hours played.
+    Alternatively, you can Run EXE inside prefix (NorthstarLauncher.exe) without adding the files, but it won't count the hours played.
 
 5. In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it ([source](https://github.com/R2Northstar/NorthstarLauncher/pull/19)).
 
