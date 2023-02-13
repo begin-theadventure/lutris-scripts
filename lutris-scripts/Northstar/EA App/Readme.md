@@ -25,7 +25,7 @@ Steps:
 
     You can also Run EXE inside prefix (NorthstarLauncher.exe) without adding the files, but it won't count the hours played.
 
-[5.](https://github.com/R2Northstar/NorthstarLauncher/pull/19)In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it.
+[5.](https://github.com/R2Northstar/NorthstarLauncher/pull/19) In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it.
 
     After that the game should be ready to play!
 
