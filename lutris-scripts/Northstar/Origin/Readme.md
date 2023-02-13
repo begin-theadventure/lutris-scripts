@@ -29,7 +29,7 @@ Steps:
 
     _Help improve Origin_: Diagnostics - all off.
 
-4. If you don't have the game files, install them, but if you do, you can Run EXE inside prefix (NorthstarLauncher.exe), but it won't count the hours played or add them:
+4. If you don't have the game files, install them, but if you do, you can add them:
 
     Symlink the Titanfall2 folder to /path/to/northstar-client/drive_c/Program Files (x86)/Origin Games
 
