@@ -35,7 +35,7 @@ Steps:
 
     Open Origin->Download->Origin, Exit. Re-open and it will verify the game files. 
 
-[5.](https://github.com/R2Northstar/NorthstarLauncher/pull/19) In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it.
+5. In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it ([source](https://github.com/R2Northstar/NorthstarLauncher/pull/19)).
 
     After that the game should be ready to play!
 

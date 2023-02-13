@@ -49,7 +49,7 @@ Steps:
 
     Open Steam and now Titanfall 2 will be in your library!
 
-[5.](https://github.com/R2Northstar/NorthstarLauncher/pull/19) In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it.
+5. In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it ([source](https://github.com/R2Northstar/NorthstarLauncher/pull/19)).
 
     After that, add the game to favorites to make it easier to choose, play, agree to the EULA, Steam will install the necessary stuff and the game should be ready to play!
 
