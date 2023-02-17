@@ -7,7 +7,7 @@ Windows 7/8 version wasn't tested, but 10/11 works anyway.
 
 ## Tutorial
 
-Hey!
+Hello.
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/NosVoid) for Lutris which will set the prefix.
 

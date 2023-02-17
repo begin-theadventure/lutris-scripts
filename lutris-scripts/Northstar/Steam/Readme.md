@@ -1,5 +1,5 @@
 ## Tutorial
-Hey!
+Hello.
 
 This is a tutorial on how to play the Northstar client on Linux with Lutris+Wine.
 
