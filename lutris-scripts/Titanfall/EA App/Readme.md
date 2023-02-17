@@ -17,7 +17,7 @@ Steps:
 
     _Application_: **Enable In-game overlay**.
 
-4. If you don't have the game files, install them, but if you do, the EA App has no option to add them (it's possible with [Origin](https://github.com/begin-theadventure/lutris-scripts/tree/main/R5Reloaded/Origin)).
+4. If you don't have the game files, install them, but if you do, the EA App has no option to add them.
 
     After that the game should be ready to play!
 

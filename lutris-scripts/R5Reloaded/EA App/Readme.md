@@ -18,7 +18,7 @@ Steps:
 
 1. Click + near "Search games".
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-ea-app.json)". After a successful installation, click Close.
-3. Unfortunately there's no "Non-EA App Game" option like in Origin, instead we can change the executable file from EADesktop.exe to r5apex.exe.
+3. Unfortunately there's no "Non-EA App Game", instead we can change the executable file from EADesktop.exe to r5apex.exe.
 
     Right click on the banner->Configuration->Game Options->Executable->path/to/r5apex.exe
 
