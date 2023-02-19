@@ -21,7 +21,7 @@ Steps:
 
     _Application_: **Enable In-game overlay**.
 
-4. If you don't have the game files, install them, but if you do, the EA App has no option to add them.
+4. If you don't have the game files, install them, but if you do, check out this [YouTube video](https://youtu.be/5HCQYtuzqgk?t=15).
 
     Alternatively, you can Run EXE inside prefix (NorthstarLauncher.exe) without adding the files, but it won't count the hours played.
 
