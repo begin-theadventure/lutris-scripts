@@ -13,7 +13,7 @@ It's based on [Apex Legends](https://lutris.net/games/apex-legends) and [Origin]
 
 Before, follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or on R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 
-You can also use my auto shell [scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
+You can also use my automatic [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
 
 Steps for Lutris:
 

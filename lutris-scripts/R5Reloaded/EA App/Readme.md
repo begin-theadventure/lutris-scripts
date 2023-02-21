@@ -11,7 +11,7 @@ It's based on [Apex Legends](https://lutris.net/games/apex-legends), the [EA App
 
 Before, follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or on R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 
-You can also use my auto shell [scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
+You can also use my automatic [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
 
 Steps:
 
@@ -19,7 +19,7 @@ Steps:
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-ea-app.json)". After a successful installation, click Close.
 3. Unfortunately there's no "Non-EA App Game", instead we can change the executable file from EADesktop.exe to r5apex.exe.
 
-    Right click on the banner->Configuration->Game Options->Executable->path/to/r5apex.exe
+    Right click on the banner->Configuration->Game Options->Executable->path/to/ r5apex.exe starts the game automatically, launcher.exe allows to choose various options.
 
     Now it'll launch the EA App, log in and after it has launched we need to run the exe again, so just double-click on the R5Reloaded banner and after that the game should launch!
 

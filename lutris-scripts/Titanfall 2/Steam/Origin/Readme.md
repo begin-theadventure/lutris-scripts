@@ -1,5 +1,5 @@
 ## Tutorial
-_Before see [this Twitter post](https://twitter.com/p0358/status/1626811868412010497)._
+_Before see [this Twitter post](https://twitter.com/p0358/status/1626811868412010497). You will also have to exit EA App installer after launching the game._
 
 Hello.
 
@@ -13,13 +13,9 @@ Steps:
 
 1. Click + near "Search games".
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Titanfall-2/titanfall-2-steam-origin.json)" and open it. After succesful installation, click Launch.
-3. Changing settings to save resources and some bugs (you can skip this).
+3. Changing settings to save resources and other stuff (you can skip this).
 
     Log in to Steam. I couldn't log in with the QR code, so I used my login and password. A restart may be needed.
-
-    Running Steam with these arguments will have a less buggy GUI, and may save more resources (albeit -no-browser means fewer features):
-
-    Lutris->right click on the banner->Configure->Game options->`-no-browser +open steam://open/minigameslist`->Re-open.
 
     Personally, I like to change these settings in Steam->Settings:
 
@@ -30,6 +26,10 @@ Steps:
     _Interface_: Notify me about.., Select which window.. - Library, **Enable GPU accelerated**.. & **Enable hardware video**..
 
     _Library_: Low Bandwith Mode & Low Performance Mode.
+
+    Launch options:
+
+    Lutris->right click on the banner->Configure->Game options->`-no-browser` saves resouces (albeit resulting in fewer features, including Properties), `+open steam://open/minigameslist` opens the mini-games list and `steam://rungameid/1237970` launches the game automatically->Re-open.
 
     And also in Origin:
 

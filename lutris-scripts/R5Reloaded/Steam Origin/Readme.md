@@ -9,7 +9,7 @@ From v2.0.2_rc, the workaround that was to run lutris with "echo 1 |" is no long
 
 Before, follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or on R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 
-You can also use my auto shell [scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
+You can also use my automatic [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
 
 Steps:
 
@@ -21,7 +21,7 @@ Steps:
 5. PLAY -> install Origin and after close.
 6. Find the prefix under: ~/.local/share/Steam/steamapps/compatdata/x
 7. Right click -> Properties... -> TARGET: "/path/to/x/pfx/drive_c/Program Files (x86)/Origin/Origin.exe" and START IN: "/path/to/x/pfx/".
-8. PLAY -> Origin: ADD A GAME -> Non-Origin Game... r5apex.exe
+8. PLAY -> Origin: ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically, launcher.exe allows to choose various options.
 9. Play.
 
 Images for Steam, [link](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesSteam#readme). [Source/preview](https://twitter.com/r5reloaded).

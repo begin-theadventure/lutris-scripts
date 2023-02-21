@@ -1,6 +1,4 @@
-## NosVoid installer
-Install script for NosVoid.
-
+## NosVoid script
 The game crashes with Windows version 7 upwards, so the script sets Vista instead.
 
 Windows 7/8 version wasn't tested, but 10/11 works anyway.
