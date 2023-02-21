@@ -1,0 +1,132 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 32197,
+      "game_id": 17620,
+      "game_slug": "titanfall",
+      "name": "Titanfall",
+      "year": 2014,
+      "user": "begin-theadventure",
+      "runner": "wine",
+      "slug": "titanfall-steam-origin",
+      "version": "Steam with Origin",
+      "description": "Link to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Titanfall",
+      "notes": "",
+      "credits": "",
+      "created_at": "2022-12-29T00:00:00.400000Z",
+      "updated_at": "2022-12-29T00:00:00.400000Z",
+      "draft": false,
+      "published": false,
+      "published_by": ,
+      "rating": "",
+      "steamid": 1454890,
+      "gogid": null,
+      "gogslug": "",
+      "humbleid": "",
+      "humblestoreid": "",
+      "humblestoreid_real": "",
+      "script": {
+        "files": [
+          {
+            "client": "https://cdn.steamstatic.com/client/installer/SteamSetup.exe"
+          },
+          {
+            "client2": "https://download.dm.origin.com/origin/live/OriginThinSetup.exe"
+          },
+        ],
+        "game": {
+          "arch": "win64",
+          "exe": "drive_c/Program Files (x86)/Steam/Steam.exe",
+          "prefix": "$GAMEDIR"
+        },
+        "installer": [
+          {
+            "task": {
+              "arch": "win64",
+              "description": "Creating a Wine prefix..",
+              "name": "create_prefix",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "execute": {
+              "command": "mkdir \"$GAMEDIR/nv-shaders\""
+            }
+          },
+          {
+            "execute": {
+              "command": "mkdir \"$GAMEDIR/mesa-shaders\""
+            }
+          },
+          {
+            "write_file": {
+              "content": "",
+              "file": "$GAMEDIR/dxvk.conf"
+            }
+          },
+          {
+            "task": {
+              "app": "arial nocrashdialog vcrun2010 win10",
+              "description": "Installing dependencies..",
+              "arch": "win64",
+              "name": "winetricks",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "args": "/silent",
+              "description": "Installing Steam.. Uncheck Run Steam and click Finish.",
+              "exclude_processes": "",
+              "executable": "client",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "args": "/silent",
+              "description": "Installing Origin..",
+              "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe",
+              "executable": "client2",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "name": "winekill",
+              "prefix": "$GAMEDIR"
+            }
+          },
+        ],
+        "system": {
+          "env": {
+            "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": 1,
+            "__GL_SHADER_DISK_CACHE_SIZE": 1000000000,
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders",
+            "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders",
+            "DXVK_HUD": "compiler",
+            "DXVK_CONFIG_FILE": "$GAMEDIR/dxvk.conf",
+            "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
+            "STAGING_SHARED_MEMORY": 0
+          },
+          "exclude_processes": "QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe"
+        },
+        "wine": {
+          "dxvk": true,
+          "overrides": {
+            "nvapi,nvapi64": "disabled",
+            "xaudio2_7": "native,builtin"
+          }
+        }
+      },
+    }
+  ]
+}

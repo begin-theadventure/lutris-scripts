@@ -1,7 +1,7 @@
 ## Tutorial
-DISCLAIMER: before see [this Twitter post](https://twitter.com/p0358/status/1626811868412010497).
+_Before see [this Twitter post](https://twitter.com/p0358/status/1626811868412010497)._
 
-Hey!
+Hello.
 
 This is a tutorial on how to play Titanfall 2 on Linux with Lutris+Wine.
 

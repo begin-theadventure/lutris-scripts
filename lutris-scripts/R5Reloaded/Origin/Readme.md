@@ -1,7 +1,7 @@
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2)
-DISCLAIMER: before see [this Twitter post](https://twitter.com/p0358/status/1626811868412010497).
+_Before see [this Twitter post](https://twitter.com/p0358/status/1626811868412010497)._
 
-Hey!
+Hello.
 
 This is a tutorial on how to play R5Reloaded on Linux.
 
