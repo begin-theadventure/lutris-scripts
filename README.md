@@ -1,9 +1,9 @@
 # lutris-scripts
-Install scripts for Lutris, related tutorials and image packs.
+Install scripts for [Lutris](https://lutris.net), related tutorials and image packs.
 
 #### Currently supported games:
-- Northstar,
-- NosVoid,
-- R5Reloaded,
-- Titanfall 2,
-- Titanfall.
+- [Northstar](https://northstar.tf),
+- [NosVoid](https://nosvoid.com),
+- [R5Reloaded](https://r5reloaded.com),
+- [Titanfall 2](https://www.ea.com/en-us/games/titanfall/titanfall-2),
+- [Titanfall](https://www.ea.com/en-ca/games/titanfall/titanfall).
