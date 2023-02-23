@@ -1,0 +1,104 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "",
+      "game_id": "",
+      "game_slug": "nosbyte",
+      "name": "NosByte",
+      "year": 2019,
+      "user": "begin-theadventure",
+      "runner": "wine",
+      "slug": "nosbyte-alternate-standalone-launcher",
+      "version": "Alternate Standalone Launcher",
+      "description": "After installing the game, change the executable to NosByte.exe, only run the launcher (via 'Run EXE inside prefix') when there's an update or you need to check the game files.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/NosByte/images/NosByteImages\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/NosByte",
+      "notes": "",
+      "credits": "",
+      "created_at": "2023-01-06T00:00:00.400000Z",
+      "updated_at": "2023-01-06T00:00:00.400000Z",
+      "draft": false,
+      "published": false,
+      "published_by": ,
+      "rating": "",
+      "steamid": null,
+      "gogid": null,
+      "gogslug": "",
+      "humbleid": "",
+      "humblestoreid": "",
+      "humblestoreid_real": "",
+      "script": {
+        "files": [
+          {
+            "launcher": "https://nosbyte.eu/public/download/NosByte%20-%20Launcher%20(Installer).rar"
+          },
+        ],
+        "game": {
+          "arch": "win32",
+          "exe": "drive_c/NosByte/NosByte_Launcher.exe",
+          "prefix": "$GAMEDIR"
+        },
+        "installer": [
+          {
+            "task": {
+              "arch": "win32",
+              "description": "Creating a Wine prefix..",
+              "name": "create_prefix",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "execute": {
+              "command": "mkdir \"$GAMEDIR/nv-shaders\""
+            }
+          },
+          {
+            "execute": {
+              "command": "mkdir \"$GAMEDIR/mesa-shaders\""
+            }
+          },
+          {
+            "extract": {
+              "dst": "$GAMEDIR/drive_c/NosByte",
+              "file": "launcher",
+              "description": "Extracting the game files.."
+            }
+          },
+          {
+            "task": {
+              "app": "vista",
+              "description": "Changing the Windows version..",
+              "arch": "win32",
+              "name": "winetricks",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win32",
+              "name": "winekill",
+              "prefix": "$GAMEDIR"
+            }
+          }
+        ],
+        "system": {
+          "prime": false,
+          "env": {
+            "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": 1,
+            "__GL_SHADER_DISK_CACHE_SIZE": 1000000000,
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR",
+            "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders",
+            "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders",
+            "DXVK_HUD": "compiler",
+            "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
+          }
+        },
+        "wine": {
+          "dxvk": true,
+          "version": "wine-tkg-nostale-7.6",
+        }
+      },
+    }
+  ]
+}
