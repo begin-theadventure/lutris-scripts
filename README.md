@@ -3,6 +3,7 @@ Install scripts for [Lutris](https://lutris.net), related tutorials and image pa
 
 #### Currently supported games:
 - [Northstar](https://northstar.tf),
+- [NosByte](https://nosbyte.eu/),
 - [NosVoid](https://nosvoid.com),
 - [R5Reloaded](https://r5reloaded.com),
 - [Titanfall 2](https://www.ea.com/en-us/games/titanfall/titanfall-2),
