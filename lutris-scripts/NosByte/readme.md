@@ -1,5 +1,5 @@
 ## NosByte script
-The launcher doesn't work properly in a 64-bit prefix and the game crashes with Windows version 7 upwards, so the script sets Vista instead.
+The launcher doesn't work properly in a 64-bit prefix and the game crashes with Windows version 7 upwards, so the script sets 32-bit Vista instead.
 
 ## Tutorial
 
