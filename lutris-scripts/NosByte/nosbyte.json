@@ -13,7 +13,7 @@
       "runner": "wine",
       "slug": "nosbyte-alternate-standalone-launcher",
       "version": "Alternate Standalone Launcher",
-      "description": "After installing the game, change the executable to NosByte.exe, only run the launcher (via 'Run EXE inside prefix') when there's an update or you need to check the game files.\nImage pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/NosByte/images/NosByteImages\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/NosByte",
+      "description": "Image pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/NosByte/images/NosByteImages\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/NosByte",
       "notes": "",
       "credits": "",
       "created_at": "2023-01-06T00:00:00.400000Z",
