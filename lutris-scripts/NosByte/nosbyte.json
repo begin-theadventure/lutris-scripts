@@ -16,8 +16,8 @@
       "description": "Image pack is here: https://github.com/begin-theadventure/lutris-scripts/blob/main/NosByte/images/NosByteImages\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/NosByte",
       "notes": "",
       "credits": "",
-      "created_at": "2023-01-06T00:00:00.400000Z",
-      "updated_at": "2023-01-06T00:00:00.400000Z",
+      "created_at": "2023-02-23T00:00:00.400000Z",
+      "updated_at": "2023-02-25T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
@@ -85,8 +85,6 @@
         "system": {
           "prime": false,
           "env": {
-            "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": 1,
-            "__GL_SHADER_DISK_CACHE_SIZE": 1000000000,
             "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR",
             "__GL_SHADER_DISK_CACHE_PATH": "$GAMEDIR/nv-shaders",
             "MESA_SHADER_CACHE_DIR": "$GAMEDIR/mesa-shaders",
