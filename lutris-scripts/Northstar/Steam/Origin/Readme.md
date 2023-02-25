@@ -16,7 +16,7 @@ You can do it manually (extract the [zip file](https://github.com/R2Northstar/No
 Steps:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-steam-origin.json)" and open it. After succesful installation, launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-steam-origin.json)" and open it. After succesful installation, click Launch.
 3. Changing settings to save resources and other stuff (you can skip this).
 
     Log in to Steam. I couldn't log in with the QR code, so I used my login and password. A restart may be needed.

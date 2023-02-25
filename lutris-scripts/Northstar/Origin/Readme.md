@@ -16,7 +16,7 @@ You can do it manually (extract the [zip file](https://github.com/R2Northstar/No
 Steps:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-origin.json)" and open it. After succesful installation, launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-origin.json)" and open it. After succesful installation, click Launch.
 3. Changing settings to save resources (you can skip this).
 
     To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!) see this Reddit post, [link](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/northstar-client/drive_c/Program Files (x86)/Origin/platforms

@@ -14,7 +14,7 @@ You can do it manually (extract the [zip file](https://github.com/R2Northstar/No
 Steps:
 
 1. Click + near "Search games".
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-ea-app.json)" and open it. After succesful installation, launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-ea-app.json)" and open it. After succesful installation, click Launch.
 3. Changing one setting (you can skip this).
 
     Settings:
