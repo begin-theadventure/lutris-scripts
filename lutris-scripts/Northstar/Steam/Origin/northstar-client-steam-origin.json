@@ -17,7 +17,7 @@
       "notes": "",
       "credits": "",
       "created_at": "2022-12-28T00:00:00.400000Z",
-      "updated_at": "2023-01-27T00:00:00.400000Z",
+      "updated_at": "2023-03-29T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
@@ -62,23 +62,8 @@
             }
           },
           {
-            "input_menu": {
-              "description": "Setting DXVK config, choose your GPU.",
-              "id": "GPU",
-              "options": [
-                {
-                  "dxgi.maxFrameLatency = 1": "AMD"
-                },
-                {
-                  "dxgi.nvapiHack = False\ndxgi.maxFrameLatency = 1": "NVIDIA"
-                }
-              ],
-              "preselect": "dxgi.maxFrameLatency = 1"
-            }
-          },
-          {
             "write_file": {
-              "content": "$INPUT_GPU",
+              "content": "dxgi.nvapiHack = False",
               "file": "$GAMEDIR/dxvk.conf"
             }
           },
