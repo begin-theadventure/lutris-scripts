@@ -27,7 +27,7 @@ Steps:
 
     The proper exe was linked by me earlier.
 
-    Empty value "" for UpdateURL also works.
+    Empty value "" for UpdateURL should also work.
 
     In our case, the directory is /path/to/x/pfx/drive_c/ProgramData/Origin/local.xml
 

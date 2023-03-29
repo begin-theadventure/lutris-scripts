@@ -21,7 +21,7 @@ Steps:
 
     The proper exe is already installed by the script.
 
-    Empty value "" for UpdateURL also works.
+    Empty value "" for UpdateURL should also work.
 
     In our case, the directory is /path/to/northstar-client/drive_c/ProgramData/Origin/local.xml
 
