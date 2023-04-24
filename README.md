@@ -1,6 +1,8 @@
 # lutris-scripts
 Install scripts for [Lutris](https://lutris.net), related tutorials and image packs.
 
+If you have an issue, please open an [issue](https://github.com/begin-theadventure/lutris-scripts/issues/new)!
+
 #### Currently supported games:
 - [Northstar](https://northstar.tf),
 - [NosByte](https://nosbyte.eu/),
