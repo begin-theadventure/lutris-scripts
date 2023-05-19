@@ -78,7 +78,7 @@
               "arch": "win64",
               "args": "/silent",
               "description": "Installing the EA App..",
-              "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe explorer.exe explorer.exe winedbg.exe",
+              "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe explorer.exe winedbg.exe",
               "executable": "client",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
