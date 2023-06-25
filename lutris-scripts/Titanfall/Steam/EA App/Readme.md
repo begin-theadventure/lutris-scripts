@@ -27,9 +27,11 @@ Steps:
 
     _Library_: Low Bandwith Mode & Low Performance Mode.
 
+    I recommend using Steam in Big Picture mode.
+
     Launch options:
 
-    Lutris->right click on the banner->Configure->Game options->`-no-browser` saves resources (albeit resulting in fewer features, including Properties) and`+open steam://open/minigameslist` opens the mini-games list.
+    Lutris->right click on the banner->Configure->Game options->`+open steam://open/minigameslist` opens the mini-games list and `steam://rungameid/1454890` launches the game automatically.
 
     In the EA App:
 
@@ -47,7 +49,7 @@ Steps:
 
     Open Steam, and now Titanfall will be in your library!
 
-    Add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff, and the game should be ready to play!
+Add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff, and the game should be ready to play!
 
 [Icon for Lutris](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Titanfall/TitanfallIcon#readme).
 

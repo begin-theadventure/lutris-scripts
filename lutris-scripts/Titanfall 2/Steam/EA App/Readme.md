@@ -29,7 +29,9 @@ Steps:
 
     Launch options:
 
-    Lutris->right click on the banner->Configure->Game options->`-no-browser` saves resouces (albeit resulting in fewer features, including Properties), `+open steam://open/minigameslist` opens the mini-games list (which is less buggy) and `steam://rungameid/1237970` launches the game automatically->Save.
+    Lutris->right click on the banner->Configure->Game options->`+open steam://open/minigameslist` opens the mini-games list and `steam://rungameid/1237970` launches the game automatically.
+
+    I recommend using Steam in Big Picture mode.
 
     In the EA App:
 
@@ -45,6 +47,6 @@ Steps:
 
     Open Steam and, now Titanfall 2 will be in your library!
 
-    Add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff, and the game should be ready to play!
+Add the game to favorites to make it easier to choose, play, agree to EULA, Steam will install the necessary stuff, and the game should be ready to play!
 
 Have fun! :)

@@ -31,9 +31,11 @@ Steps:
 
     _Library_: Low Bandwith Mode & Low Performance Mode.
 
+    I recommend using Steam in Big Picture mode.
+
     Launch options:
 
-    Lutris->right click on the banner->Configure->Game options->`-no-browser` saves resouces (albeit resulting in fewer features, including Properties), `+open steam://open/minigameslist` opens the mini-games list and `steam://rungameid/1237970` launches the game automatically->Re-open.
+    Lutris->right click on the banner->Configure->Game options->`+open steam://open/minigameslist` opens the mini-games list and `steam://rungameid/1237970` launches the game automatically.
 
     In the EA App:
 
@@ -51,7 +53,9 @@ Steps:
 
 5. In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it ([source](https://github.com/R2Northstar/NorthstarLauncher/pull/19)).
 
-    After that, add the game to favorites to make it easier to choose, play, agree to the EULA, Steam will install the necessary stuff and the game should be ready to play!
+    Alternatively, you can also use the `-northstar` launch option.
+
+After that, add the game to favorites to make it easier to choose, play, agree to the EULA, Steam will install the necessary stuff and the game should be ready to play!
 
 [Images for Lutris](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/images/NorthstarImagesLutris#readme) (banner, covert art and icon). [Source/preview](https://github.com/R2NorthstarTools/NorthstarLogo).
 

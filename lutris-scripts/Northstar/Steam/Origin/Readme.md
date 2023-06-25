@@ -49,9 +49,11 @@ Steps:
 
     _Library_: Low Bandwith Mode & Low Performance Mode.
 
+    I recommend using Steam in Big Picture mode.
+
     Launch options:
 
-    Lutris->right click on the banner->Configure->Game options->`-no-browser` saves resources (albeit resulting in fewer features, including Properties) and`+open steam://open/minigameslist` opens the mini-games list.
+    Lutris->right click on the banner->Configure->Game options->`+open steam://open/minigameslist` opens the mini-games list and `steam://rungameid/1237970` launches the game automatically.
 
 4. If you don't have the game files, install them via Steam, but if you do, you can add them:
 
