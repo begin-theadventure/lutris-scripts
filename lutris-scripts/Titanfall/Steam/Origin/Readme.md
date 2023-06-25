@@ -11,17 +11,13 @@ Steps:
 
 1. Click + near "Search games".
 
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Titanfall/titanfall-steam-origin.json)" and open it. After successful installation, click Launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Titanfall/titanfall-steam-origin.json)" and open it.
 
-3. Log in to Origin and see this [Twitter post](https://twitter.com/p0358/status/1635796691902160896).
+    When installing p0358's Origin patch make sure to click on "Pretend EA App is installed (so that Steam does not start its installer)" to be able to launch with Steam.
 
-    The proper exe is already installed by the script.
+    After successful installation, click Launch.
 
-    Empty value "" for UpdateURL should also work.
-
-    In our case, the directory is /path/to/titanfall/drive_c/ProgramData/Origin/local.xml
-
-4. Changing settings to save resources and other stuff (not necessary).
+3. Changing settings to save resources and other stuff (not necessary).
 
     In Origin:
 
@@ -53,12 +49,8 @@ Steps:
 
     Lutris->right click on the banner->Configure->Game options->`-no-browser` saves resources (albeit resulting in fewer features, including Properties) and`+open steam://open/minigameslist` opens the mini-games list.
 
-5. If you don't have the game files, install them via Steam, but if you do, you can add them:
+4. If you don't have the game files, install them via Steam, but if you do, you can add them:
 
     To add the game, move `appmanifest_1454890.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/titanfall/drive_c/Program Files (x86)/Steam and symlink `Titanfall` + `Steamworks Shared` to `common` in the same folder.
-
-6. If you launch the game with Steam, it nags that the EA App isn't installed, so instead we have to launch the game with Origin.
-
-    If Steam isn't running, Origin will launch it when you click "Play", and then you must click it again to launch the game.
 
 Have fun! :)

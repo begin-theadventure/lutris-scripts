@@ -15,17 +15,13 @@ Steps:
 
 1. Click + near "Search games".
 
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-origin.json)" and open it. After successful installation, click Launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-origin.json)" and open it.
 
-3. Log in to Origin and see this [Twitter post](https://twitter.com/p0358/status/1635796691902160896).
+    When installing p0358's Origin patch make sure to click on "Pretend EA App is installed (so that Steam does not start its installer)" to be able to launch with Steam.
 
-    The proper exe is already installed by the script.
+    After successful installation, click Launch.
 
-    Empty value "" for UpdateURL should also work.
-
-    In our case, the directory is /path/to/northstar-client/drive_c/ProgramData/Origin/local.xml
-
-4. Changing settings to save resources and other stuff (not necessary).
+3. Changing settings to save resources and other stuff (not necessary).
 
     To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!), see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/northstar-client/drive_c/Program Files (x86)/Origin/platforms
 
@@ -37,13 +33,15 @@ Steps:
 
     _Origin in-game_: **Enable Origin In-Game**.
 
-5. If you don't have the game files, install them, but if you do, you can add them:
+4. If you don't have the game files, install them, but if you do, you can add them:
 
     Symlink the Titanfall2 folder to /path/to/northstar-client/drive_c/Program Files (x86)/Origin Games
 
     Origin->right click on Titanfall 2->Locate Game, and it will verify the game files.
 
-6. In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it ([source](https://github.com/R2Northstar/NorthstarLauncher/pull/19)).
+5. In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it ([source](https://github.com/R2Northstar/NorthstarLauncher/pull/19)).
+
+    Alternatively, you can also use the `-northstar` launch option.
 
 After that, the game should be ready to play!
 

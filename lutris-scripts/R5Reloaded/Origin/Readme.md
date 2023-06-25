@@ -11,7 +11,7 @@ It's based on [Apex Legends](https://lutris.net/games/apex-legends) and [Origin]
 
 Before, follow the tutorial on how to properly install R5Reloaded on [YouTube](https://youtu.be/FOkehL03CFc) or R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 
-You can also use my automatic [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
+You can also use my automatic [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download/install/update the client.
 
 Steps for Lutris:
 
@@ -19,15 +19,7 @@ Steps for Lutris:
 
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-origin.json)" and open it. After successful installation, click Launch.
 
-3. Log in to Origin and see this [Twitter post](https://twitter.com/p0358/status/1635796691902160896).
-
-    The proper exe is already installed by the script.
-
-    Empty value "" for UpdateURL should also work.
-    
-    In our case, the directory is /path/to/r5reloaded/drive_c/ProgramData/Origin/local.xml
-
-4. Changing settings to save resources and other things (not necessary).
+3. Changing settings to save resources and other things (not necessary).
 
     To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!), see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/r5reloaded/drive_c/Program Files (x86)/Origin/platforms
 
@@ -39,7 +31,7 @@ Steps for Lutris:
 
     _Origin in-game_: Enable Origin In-Game.
 
-5. Add the game to Origin.
+4. Add the game to Origin.
 
     ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically and launcher.exe allows you to choose various options.
 
