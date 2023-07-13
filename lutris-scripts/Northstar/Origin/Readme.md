@@ -17,8 +17,6 @@ Steps:
 
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-origin.json)" and open it.
 
-    When installing p0358's Origin patch make sure to click on "Pretend EA App is installed (so that Steam does not start its installer)" to be able to launch with Steam.
-
     After successful installation, click Launch.
 
 3. Changing settings to save resources and other stuff (not necessary).
