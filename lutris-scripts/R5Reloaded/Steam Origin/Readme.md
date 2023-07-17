@@ -15,7 +15,7 @@ Steps:
 
 2.  Add a Game -> Add a Non-Steam Game -> Browse... -> OriginSetup.exe.
 
-3. Right click -> Properties.. -> Compatibility -> Force Proton->GE-Proton7-37.
+3. Right click -> Properties... -> Compatibility -> Force Proton->GE-Proton7-37.
 
 4. PLAY -> install Origin and after close.
 
