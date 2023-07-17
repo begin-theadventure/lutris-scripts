@@ -5,7 +5,7 @@ This tutorial's on how to play R5Reloaded on Linux.
 
 From v2.0.2_rc, the workaround to run Lutris with "echo 1 |" is no longer required.
 
-Before, follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
+Before, follow the tutorial on how to properly install R5Reloaded on [YouTube](https://youtu.be/FOkehL03CFc) or R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 
 You can also use my automatic [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download/install/update the client.
 

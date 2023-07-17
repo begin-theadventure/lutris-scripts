@@ -9,7 +9,7 @@ I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/
 
 It's based on [Apex Legends](https://lutris.net/games/apex-legends), the [EA App](https://lutris.net/games/ea-desktop) scripts and this [Reddit post](https://www.reddit.com/r/linux_gaming/comments/qhq3pn/ea_desktop_finally_working).
 
-Before, follow the tutorial on how to properly install R5Reloaded on YT https://youtu.be/FOkehL03CFc or R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
+Before, follow the tutorial on how to properly install R5Reloaded on [YouTube](https://youtu.be/FOkehL03CFc) or R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
 
 You can also use my automatic [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to download the client.
 
