@@ -19,13 +19,13 @@ Steps:
 
     I like to change these settings in Steam->Settings:
 
-    _Friends_: Automatically sign into..
+    _Friends_: Sign in to friends when Steam Client starts
 
     _In-Game_: **Enable the Steam Overlay while in-game**.
 
-    _Interface_: Notify me about.., Select which window.. - Library, **Enable GPU accelerated**.. & **Enable hardware video**..
+    _Interface_: Notify me about.., Start Up Location.. - Library, Start Steam in Big Picture Mode, **Enable GPU accelerated**.. & **Enable hardware video**..
 
-    _Library_: Low Bandwith Mode & Low Performance Mode.
+    _Library_: Low Bandwith Mode, Low Performance Mode & Disable Community Content.
 
     Launch options:
 
@@ -43,7 +43,7 @@ Steps:
 
 4. If you don't have the game files, install via Steam, but if you do, you can add them:
 
-    To add the game, move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/titanfall-2/drive_c/Program Files (x86)/Steam and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
+    To add the game, move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/titanfall-2/drive_c/Program Files (x86)/Steam/steamapps and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
 
     Open Steam and, now Titanfall 2 will be in your library!
 

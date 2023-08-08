@@ -17,7 +17,9 @@ Steps:
 
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/Northstar/northstar-client-steam-origin.json)" and open it.
 
-    When installing p0358's Origin patch make sure to click on "Pretend EA App is installed (so that Steam does not start its installer)" to be able to launch with Steam.
+    When installing p0358's Origin patch make sure to click on "Pretend EA App is installed (so that Steam doesn't start its installer)" to be able to launch with Steam.
+
+    Remember to install Origin first, and the patch afterward.
 
     After successful installation, click Launch.
 
@@ -41,13 +43,13 @@ Steps:
 
     I like to change these settings in Steam->Settings:
 
-    _Friends_: Automatically sign into..
+    _Friends_: Sign in to friends when Steam Client starts
 
     _In-Game_: **Enable the Steam Overlay while in-game**.
 
-    _Interface_: Notify me about.., Select which window.. - Library, **Enable GPU accelerated**.. & **Enable hardware video**..
+    _Interface_: Notify me about.., Start Up Location.. - Library, Start Steam in Big Picture Mode, **Enable GPU accelerated**.. & **Enable hardware video**..
 
-    _Library_: Low Bandwith Mode & Low Performance Mode.
+    _Library_: Low Bandwith Mode, Low Performance Mode & Disable Community Content.
 
     I recommend using Steam in Big Picture mode.
 
@@ -57,13 +59,13 @@ Steps:
 
 4. If you don't have the game files, install them via Steam, but if you do, you can add them:
 
-    To add the game, move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/northstar-client/drive_c/Program Files (x86)/Steam and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
+    To add the game, move `appmanifest_1237970.acf` + `appmanifest_228980.acf` (by default in ~/.local/share/Steam) to /path/to/northstar-client/drive_c/Program Files (x86)/Steam/steamapps and symlink `Titanfall2` + `Steamworks Shared` to `common` in the same folder.
 
-    Open Steam, and now Titanfall 2 will be in your library! Exit Steam.
+    Open Steam, and now Titanfall 2 will be in your library!
 
 5. In the Titanfall2 folder, create a file `run_northstar.txt` and type `1` in it, ([source](https://github.com/R2Northstar/NorthstarLauncher/pull/19)).
 
-    Alternatively, you can also use the `-northstar` launch option.
+    Alternatively, you can use the `-northstar` launch option.
 
 After that, the game should be ready to play!
 

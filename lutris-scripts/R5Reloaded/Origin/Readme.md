@@ -17,7 +17,11 @@ Steps:
 
 1. Click + near "Search games".
 
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-origin.json)" and open it. After successful installation, click Launch.
+2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-origin.json)" and open it.
+
+    Remember to install Origin first, and the patch afterward.
+
+    After successful installation, click Launch.
 
 3. Changing settings to save resources and other things (not necessary).
 
