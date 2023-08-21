@@ -1,5 +1,5 @@
 # lutris-scripts
-Install scripts for [Lutris](https://lutris.net), related tutorials and image packs.
+Install scripts for [Lutris](https://lutris.net), tutorials and image packs.
 
 If you have an issue, please open an [issue](https://github.com/begin-theadventure/lutris-scripts/issues/new)!
 
