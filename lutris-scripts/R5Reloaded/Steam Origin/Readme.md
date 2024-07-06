@@ -1,46 +1,46 @@
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2)
 Hello.
 
-This tutorial's on how to play R5Reloaded on Linux.
-
-From v2.0.2_rc, the workaround to run Lutris with "echo 1 |" is no longer required.
-
-Before, follow the tutorial on how to properly install R5Reloaded on [YouTube](https://youtu.be/FOkehL03CFc) or R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
-
-After following the tutorial, you can use my [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to install and update the client.
+This tutorial is on how to play R5Reloaded on Linux with Steam+Proton.
 
 Steps:
 
-1. Download the [Origin installer](https://download.dm.origin.com/origin/live/OriginSetup.exe) and [GE-Proton7-37](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton7-37) (thanks lu7e for the info; you can try a different version, but it may not work), put it in ~/.local/share/Steam/compatibilitytools.d or use [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases).
+0. Use an _alt account_ just in case of a ban (better be careful).
 
-2.  Add a Game -> Add a Non-Steam Game -> Browse... -> OriginSetup.exe.
+1. Download the [Origin installer](https://download.dm.origin.com/origin/live/OriginSetup.exe) and [GE-Proton7-37](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton7-37) (thanks to lu7e for the info; you can try a different version, but it may not work), put it in `~/.local/share/Steam/compatibilitytools.d` or use [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt/releases).
 
-3. Right click -> Properties... -> Compatibility -> Force Proton->GE-Proton7-37.
+2. Add to Steam.
 
-4. PLAY -> install Origin and after close.
+    Add a Game -> Add a Non-Steam Game -> Browse... -> OriginSetup.exe.
 
-5. Download p0358's [Origin patch](https://github.com/p0358/Fuck_off_EA_App/releases/latest) and install it.
+    Right click -> Properties... -> Compatibility -> Force Proton -> GE-Proton7-37.
 
-6. Find the prefix in ~/.local/share/Steam/steamapps/compatdata/x
+    PLAY -> install Origin and close.
 
-7. Right click -> Properties... -> TARGET: "/path/to/x/pfx/drive_c/Program Files (x86)/Origin/Origin.exe" and START IN: "/path/to/x/pfx/"
+3. Find the prefix in `~/.local/share/Steam/steamapps/compatdata/`x
 
-8. Changing settings to save resources and other things (not necessary).
+    Right click -> Properties... -> TARGET: /path/to/x/`pfx/drive_c/Program Files (x86)/Origin/Origin.exe` and START IN: /path/to/x/`pfx`
+
+4. Download the [Origin patch](https://github.com/p0358/Fuck_off_EA_App/releases/latest) and install it (TARGET)
+
+5. Download the [R5Reloaded Launcher](https://r5reloaded.com/download), install it (TARGET), and "Install Apex".
+
+    After installing, click "Launch Apex" and log in to Origin.
+
+    And then: Search games and more -> Apex Legends -> Add to Library
+
+6. Changing Origing settings to save resources and other things (optional).
 
     To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!), see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/x/pfx/drive_c/Program Files (x86)/Origin/platforms
 
-    Origin->Applications Settings:
+    Origin -> Applications Settings:
 
-    _Application_: Client update - all off, Start-up options_ - all off.
+    _Application_: Client update, and Start-up options } off
 
-    _Help improve Origin_: Diagnostics - all off.
+    _Diagnostics_: Help improve Origin } off
 
-    _Origin in-game_: Enable Origin In-Game.
+    _Origin in-game_: Enable Origin In-Game - off
 
-9. Origin: ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically and launcher.exe allows you to choose various options.
+[Images for Steam](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesSteam#readme). [Source/preview](https://x.com/r5reloaded).
 
-10. Play.
-
-[Images for Steam](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesSteam#readme). [Source/preview](https://twitter.com/r5reloaded).
-
-Have fun! :)
+If you need assistance, open [an issue here](https://github.com/begin-theadventure/lutris-scripts/issues/new) or come to the [R5Reloaded Discord](https://discord.gg/r5reloaded) ([Linux thread](https://discord.com/channels/873158454850756638/880164364898951178)).

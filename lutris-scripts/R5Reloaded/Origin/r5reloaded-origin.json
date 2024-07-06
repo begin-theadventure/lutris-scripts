@@ -13,11 +13,11 @@
       "runner": "wine",
       "slug": "r5reloaded-origin",
       "version": "Origin",
-      "description": "Image pack is here: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded",
+      "description": "Image pack is here: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts",
       "notes": "",
       "credits": "",
       "created_at": "2022-09-16T00:00:00.400000Z",
-      "updated_at": "2023-06-25T00:00:00.400000Z",
+      "updated_at": "2024-07-06T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
@@ -34,12 +34,15 @@
             "client": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
           },
           {
-            "originpatch": "https://github.com/p0358/Fuck_off_EA_App/releases/download/v2/Fuck_off_EA_App_installer.exe"
+            "patch": "https://github.com/p0358/Fuck_off_EA_App/releases/download/v3/Fuck_off_EA_App_installer.exe"
+          },
+          {
+            "installer": "https://github.com/SlaveBuild/r5r_installer/releases/download/v0.1a/R5Reloaded_Installer.exe"
           },
         ],
         "game": {
           "arch": "win64",
-          "exe": "drive_c/Program Files (x86)/Origin/Origin.exe",
+          "exe": "drive_c/R5Reloaded/launcher.exe",
           "prefix": "$GAMEDIR"
         },
         "installer": [
@@ -53,12 +56,12 @@
           },
           {
             "execute": {
-              "command": "mkdir \"$GAMEDIR/nv-shaders\""
+              "command": "mkdir -p \"$GAMEDIR/nv-shaders\""
             }
           },
           {
             "execute": {
-              "command": "mkdir \"$GAMEDIR/mesa-shaders\""
+              "command": "mkdir -p \"$GAMEDIR/mesa-shaders\""
             }
           },
           {
@@ -81,7 +84,7 @@
               "arch": "win64",
               "args": "/silent",
               "description": "Installing Origin..",
-              "exclude_processes": "Origin.exe OriginClientService.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe OriginER.exe",
+              "exclude_processes": "Origin.exe OriginClientService.exe OriginER.exe OriginWebHelperService.exe QtWebEngineProcess.exe explorer.exe winedbg.exe",
               "executable": "client",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
@@ -91,7 +94,17 @@
             "task": {
               "arch": "win64",
               "description": "Installing the Origin patch..",
-              "executable": "originpatch",
+              "executable": "patch",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "description": "R5Reloaded installer..",
+              "exclude_processes": "explorer.exe winedbg.exe",
+              "executable": "installer",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
             }
@@ -115,7 +128,7 @@
             "DXVK_STATE_CACHE_PATH": "$GAMEDIR/dxvk-cache",
             "STAGING_SHARED_MEMORY": 0
           },
-          "exclude_processes": "QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe"
+          "exclude_processes": "OriginWebHelperService.exe QtWebEngineProcess.exe ActivationUI.exe"
         },
         "wine": {
           "dxvk": true,

@@ -1,44 +1,44 @@
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2)
 Hello.
 
-This tutorial's on how to play R5Reloaded on Linux.
-
-From v2.0.2_rc, the workaround to run Lutris with "echo 1 |" is no longer required.
+This tutorial is on how to play R5Reloaded on Linux with Lutris+Wine.
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/R5Reloaded) for Lutris, which will set the prefix.
 
 It's based on [Apex Legends](https://lutris.net/games/apex-legends) and [Origin](https://lutris.net/games/origin) scripts.
 
-Before, follow the tutorial on how to properly install R5Reloaded on [YouTube](https://youtu.be/FOkehL03CFc) or R5Reloaded [Discord](https://discord.com/invite/r5reloaded) in [#instructions](https://discord.com/channels/873158454850756638/873170878475669514/995977751502803014).
-
-After following the tutorial, you can use my [shell scripts](https://github.com/begin-theadventure/r5reloaded-upllers/releases) to install and update the client.
-
 Steps:
 
-1. Click + near "Search games".
+0. Use an _alt account_ just in case of a ban (better be careful).
 
-2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-origin.json)" and open it.
+1. Click `+` on the right side of the top bar.
 
-    Remember to install Origin first, and the patch afterward.
+2. "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-origin.json)" -> Script File `:` (Select a File) -> Install, Install, Continue, Install.
 
-    After successful installation, click Launch.
+    Install Origin first, and the patch afterward.
 
-3. Changing settings to save resources and other things (not necessary).
+    R5Reloaded installer: Next -> Install -> Close.
 
-    To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!), see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/r5reloaded/drive_c/Program Files (x86)/Origin/platforms
+    After a successful installation, click Launch.
 
-    Origin->Applications Settings:
+3. Click "Install Apex" in the launcher.
 
-    _Application_: Client update - all off, Start-up options_ - all off.
+    After installing, click "Launch Apex" and log in to Origin.
 
-    _Help improve Origin_: Diagnostics - all off.
+    And then: Search games and more -> Apex Legends -> Add to Library
 
-    _Origin in-game_: Enable Origin In-Game.
+4. Changing settings to save resources and other things (optional).
 
-4. Add the game to Origin.
+    To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!), see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/`r5reloaded/drive_c/Program Files (x86)/Origin/platforms`
 
-    ADD A GAME -> Non-Origin Game... r5apex.exe starts the game automatically and launcher.exe allows you to choose various options.
+    Origin -> Applications Settings:
 
-[Images for Lutris](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://twitter.com/R5Reloaded) (banner, covert art and icon).
+    _Application_: Client update, and Start-up options } off
 
-Have fun! :)
+    _Diagnostics_: Help improve Origin } off
+
+    _Origin in-game_: Enable Origin In-Game - off
+
+[Images for Lutris](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images/R5ReloadedImagesLutris#readme). [Source/preview](https://x.com/R5Reloaded) (banner, covert art, and icon).
+
+If you need assistance, open [an issue here](https://github.com/begin-theadventure/lutris-scripts/issues/new) or come to the [R5Reloaded Discord](https://discord.gg/r5reloaded) ([Linux thread](https://discord.com/channels/873158454850756638/880164364898951178)).

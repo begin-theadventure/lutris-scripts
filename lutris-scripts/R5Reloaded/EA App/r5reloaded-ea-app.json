@@ -13,11 +13,11 @@
       "runner": "wine",
       "slug": "r5reloaded-ea-app",
       "version": "EA App",
-      "description": "Image pack is here: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded",
+      "description": "Image pack is here: https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/R5Reloaded/images\nLink to the GitHub repo: https://github.com/begin-theadventure/lutris-scripts",
       "notes": "",
       "credits": "",
       "created_at": "2022-12-26T00:00:00.400000Z",
-      "updated_at": "2023-05-19T00:00:00.400000Z",
+      "updated_at": "2024-07-06T00:00:00.400000Z",
       "draft": false,
       "published": false,
       "published_by": ,
@@ -33,10 +33,13 @@
           {
             "client": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe"
           },
+          {
+            "installer": "https://github.com/SlaveBuild/r5r_installer/releases/download/v0.1a/R5Reloaded_Installer.exe"
+          },
         ],
         "game": {
           "arch": "win64",
-          "exe": "drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EADesktop.exe",
+          "exe": "drive_c/R5Reloaded/launcher.exe",
           "prefix": "$GAMEDIR"
         },
         "installer": [
@@ -50,12 +53,12 @@
           },
           {
             "execute": {
-              "command": "mkdir \"$GAMEDIR/nv-shaders\""
+              "command": "mkdir -p \"$GAMEDIR/nv-shaders\""
             }
           },
           {
             "execute": {
-              "command": "mkdir \"$GAMEDIR/mesa-shaders\""
+              "command": "mkdir -p \"$GAMEDIR/mesa-shaders\""
             }
           },
           {
@@ -66,7 +69,7 @@
           },
           {
             "task": {
-              "app": "nocrashdialog vcrun2017 win10 liberation d3dcompiler_47",
+              "app": "d3dcompiler_47 liberation nocrashdialog vcrun2017 win10",
               "description": "Installing dependencies..",
               "arch": "win64",
               "name": "winetricks",
@@ -80,6 +83,16 @@
               "description": "Installing the EA App..",
               "exclude_processes": "EADesktop.exe EABackgroundService.exe EALocalHostSvc.exe QtWebEngineProcess.exe explorer.exe winedbg.exe",
               "executable": "client",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
+              "description": "R5Reloaded installer..",
+              "exclude_processes": "explorer.exe winedbg.exe",
+              "executable": "installer",
               "name": "wineexec",
               "prefix": "$GAMEDIR"
             }
