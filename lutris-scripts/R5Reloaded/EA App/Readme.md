@@ -1,7 +1,7 @@
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2)
 Hello.
 
-This tutorial is on how to play R5Reloaded on Linux with Lutris+Wine.
+This tutorial is on how to play R5Reloaded on Linux with Lutris + Wine.
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/R5Reloaded) for Lutris, which will set the prefix.
 
@@ -11,7 +11,7 @@ Steps:
 
 0. Use an _alt account_ just in case of a ban (better be careful).
 
-1. Click `+` on the right side of the top bar.
+1. Click `+` (Add Game) on the left side of the top bar.
 
 2. Choose "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-ea-app.json)".
 
@@ -23,7 +23,9 @@ Steps:
 
     After installing, click "Launch Apex" and log in to the EA app.
 
-    And then: Search games and add-ons -> Apex Legends -> DOWNLOAD -> CANCEL (this will add the game to the library.)
+    And then: Search games and add-ons -> Apex Legends -> DOWNLOAD -> CANCEL (this will add the game to the library)
+
+Launch Apex (with the R5Reloaded launcher)
 
 4. EA app settings (optional).
 

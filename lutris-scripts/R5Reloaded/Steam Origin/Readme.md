@@ -29,9 +29,11 @@ Steps:
 
     And then: Search games and more -> Apex Legends -> Add to Library
 
-6. Changing Origing settings to save resources and other things (optional).
+Launch Apex (with the R5Reloaded launcher)
 
-    To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!), see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/x/pfx/drive_c/Program Files (x86)/Origin/platforms
+6. Change settings to save resources, etc. (optional).
+
+    To disable **hardware acceleration**, which in my case can use 500+ MiB of GPU, see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/x/pfx/drive_c/Program Files (x86)/Origin/platforms
 
     Origin -> Applications Settings:
 

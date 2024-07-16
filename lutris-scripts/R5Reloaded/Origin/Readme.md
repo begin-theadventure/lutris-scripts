@@ -1,7 +1,7 @@
 ## [Tutorial](https://www.reddit.com/r/r5reloaded/comments/wv19jf/r5reloaded_works_on_linux_v2)
 Hello.
 
-This tutorial is on how to play R5Reloaded on Linux with Lutris+Wine.
+This tutorial is on how to play R5Reloaded on Linux with Lutris + Wine.
 
 I made a [script](https://github.com/begin-theadventure/lutris-scripts/releases/tag/R5Reloaded) for Lutris, which will set the prefix.
 
@@ -11,7 +11,7 @@ Steps:
 
 0. Use an _alt account_ just in case of a ban (better be careful).
 
-1. Click `+` on the right side of the top bar.
+1. Click `+` (Add Game) on the left side of the top bar.
 
 2. "Install from a local install [script](https://github.com/begin-theadventure/lutris-scripts/releases/download/R5Reloaded/r5reloaded-origin.json)" -> Script File `:` (Select a File) -> Install, Install, Continue, Install.
 
@@ -27,9 +27,11 @@ Steps:
 
     And then: Search games and more -> Apex Legends -> Add to Library
 
-4. Changing settings to save resources and other things (optional).
+Launch Apex (with the R5Reloaded launcher)
 
-    To disable **hardware acceleration**, which in my case uses 500+ MiB of GPU (!), see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/`r5reloaded/drive_c/Program Files (x86)/Origin/platforms`
+4. Change settings to save resources, etc. (optional).
+
+    To disable **hardware acceleration**, which in my case can use 500+ MiB of GPU, see this [Reddit post](https://www.reddit.com/r/origin/comments/q8o9gv/disable_origin_client_hardware_acceleration). In our case, the directory is /path/to/`r5reloaded/drive_c/Program Files (x86)/Origin/platforms`
 
     Origin -> Applications Settings:
 
