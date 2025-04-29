@@ -17,12 +17,12 @@
       "notes": "",
       "credits": "",
       "created_at": "2022-09-16T00:00:00.400000Z",
-      "updated_at": "2024-07-06T00:00:00.400000Z",
+      "updated_at": "2025-04-28T00:00:00.400000Z",
       "draft": false,
       "published": false,
-      "published_by": ,
+      "published_by": null,
       "rating": "",
-      "steamid": ,
+      "steamid": null,
       "gogid": null,
       "gogslug": "",
       "humbleid": "",
@@ -37,12 +37,15 @@
             "patch": "https://github.com/p0358/Fuck_off_EA_App/releases/download/v3/Fuck_off_EA_App_installer.exe"
           },
           {
-            "installer": "https://github.com/SlaveBuild/r5r_installer/releases/download/v0.1a/R5Reloaded_Installer.exe"
+            "dotnet8": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.15/windowsdesktop-runtime-8.0.15-win-x64.exe"
           },
+          {
+            "installer": "https://cdn.r5r.org/launcher/R5RLauncher-Setup.exe"
+          }
         ],
         "game": {
           "arch": "win64",
-          "exe": "drive_c/R5Reloaded/launcher.exe",
+          "exe": "drive_c/Program Files/R5Reloaded/R5R Launcher/launcher.exe",
           "prefix": "$GAMEDIR"
         },
         "installer": [
@@ -102,6 +105,16 @@
           {
             "task": {
               "arch": "win64",
+              "args": "/install /quiet /norestart",
+              "description": "Installing .NET 8.0 Desktop Runtime.",
+              "executable": "dotnet8",
+              "name": "wineexec",
+              "prefix": "$GAMEDIR"
+            }
+          },
+          {
+            "task": {
+              "arch": "win64",
               "description": "R5Reloaded installer..",
               "exclude_processes": "explorer.exe winedbg.exe",
               "executable": "installer",
@@ -115,7 +128,7 @@
               "name": "winekill",
               "prefix": "$GAMEDIR"
             }
-          },
+          }
         ],
         "system": {
           "env": {
@@ -138,7 +151,7 @@
             "version": "native,builtin"
           }
         }
-      },
+      }
     }
   ]
 }
